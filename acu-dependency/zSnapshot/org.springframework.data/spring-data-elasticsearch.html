@@ -1,0 +1,1085 @@
+<p>------------------------------------------------------------
+    Root project
+    ------------------------------------------------------------</p>
+
+<pre><code>annotationProcessor - Annotation processors and their dependencies for source set 'main'.
+No dependencies
+
+apiElements - API elements for main. (n)
+No dependencies
+
+archives - Configuration for archive artifacts.
+No dependencies
+
+compile - Dependencies for source set 'main' (deprecated, use 'implementation ' instead).
+\--- org.springframework.data:spring-data-elasticsearch:+ -&gt; 3.1.0.BUILD-SNAPSHOT
+     +--- org.springframework:spring-context:5.0.7.RELEASE
+     |    +--- org.springframework:spring-aop:5.0.7.RELEASE
+     |    |    +--- org.springframework:spring-beans:5.0.7.RELEASE
+     |    |    |    \--- org.springframework:spring-core:5.0.7.RELEASE
+     |    |    |         \--- org.springframework:spring-jcl:5.0.7.RELEASE
+     |    |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    +--- org.springframework:spring-beans:5.0.7.RELEASE (*)
+     |    +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    \--- org.springframework:spring-expression:5.0.7.RELEASE
+     |         \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     +--- org.springframework:spring-tx:5.0.7.RELEASE
+     |    +--- org.springframework:spring-beans:5.0.7.RELEASE (*)
+     |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     +--- org.springframework.data:spring-data-commons:2.1.0.BUILD-SNAPSHOT
+     |    +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    +--- org.springframework:spring-beans:5.0.7.RELEASE (*)
+     |    \--- org.slf4j:slf4j-api:1.7.25
+     +--- joda-time:joda-time:2.10
+     +--- org.elasticsearch.client:transport:6.2.2
+     |    +--- org.elasticsearch:elasticsearch:6.2.2
+     |    |    +--- org.elasticsearch:elasticsearch-core:6.2.2
+     |    |    |    \--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.lucene:lucene-core:7.2.1
+     |    |    +--- org.apache.lucene:lucene-analyzers-common:7.2.1
+     |    |    +--- org.apache.lucene:lucene-backward-codecs:7.2.1
+     |    |    +--- org.apache.lucene:lucene-grouping:7.2.1
+     |    |    +--- org.apache.lucene:lucene-highlighter:7.2.1
+     |    |    +--- org.apache.lucene:lucene-join:7.2.1
+     |    |    +--- org.apache.lucene:lucene-memory:7.2.1
+     |    |    +--- org.apache.lucene:lucene-misc:7.2.1
+     |    |    +--- org.apache.lucene:lucene-queries:7.2.1
+     |    |    +--- org.apache.lucene:lucene-queryparser:7.2.1
+     |    |    +--- org.apache.lucene:lucene-sandbox:7.2.1
+     |    |    +--- org.apache.lucene:lucene-spatial:7.2.1
+     |    |    +--- org.apache.lucene:lucene-spatial-extras:7.2.1
+     |    |    +--- org.apache.lucene:lucene-spatial3d:7.2.1
+     |    |    +--- org.apache.lucene:lucene-suggest:7.2.1
+     |    |    +--- org.elasticsearch:securesm:1.2
+     |    |    +--- org.elasticsearch:elasticsearch-cli:6.2.2
+     |    |    |    \--- net.sf.jopt-simple:jopt-simple:5.0.2
+     |    |    +--- com.carrotsearch:hppc:0.7.1
+     |    |    +--- joda-time:joda-time:2.9.9 -&gt; 2.10
+     |    |    +--- org.yaml:snakeyaml:1.17
+     |    |    +--- com.fasterxml.jackson.core:jackson-core:2.8.10 -&gt; 2.9.6
+     |    |    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-smile:2.8.10
+     |    |    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.8.10
+     |    |    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.8.10
+     |    |    +--- com.tdunning:t-digest:3.0
+     |    |    +--- org.hdrhistogram:HdrHistogram:2.1.9
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:transport-netty4-client:6.2.2
+     |    |    +--- io.netty:netty-buffer:4.1.16.Final
+     |    |    +--- io.netty:netty-codec:4.1.16.Final
+     |    |    +--- io.netty:netty-codec-http:4.1.16.Final
+     |    |    +--- io.netty:netty-common:4.1.16.Final
+     |    |    +--- io.netty:netty-handler:4.1.16.Final
+     |    |    +--- io.netty:netty-resolver:4.1.16.Final
+     |    |    +--- io.netty:netty-transport:4.1.16.Final
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:reindex-client:6.2.2
+     |    |    +--- org.elasticsearch.client:elasticsearch-rest-client:6.2.2
+     |    |    |    +--- org.apache.httpcomponents:httpclient:4.5.2
+     |    |    |    +--- org.apache.httpcomponents:httpcore:4.4.5
+     |    |    |    +--- org.apache.httpcomponents:httpasyncclient:4.1.2
+     |    |    |    +--- org.apache.httpcomponents:httpcore-nio:4.4.5
+     |    |    |    \--- commons-codec:commons-codec:1.10
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:lang-mustache-client:6.2.2
+     |    |    +--- com.github.spullara.mustache.java:compiler:0.9.3
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:percolator-client:6.2.2
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:parent-join-client:6.2.2
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    \--- org.elasticsearch.plugin:rank-eval-client:6.2.2
+     |         +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |         +--- org.locationtech.spatial4j:spatial4j:0.6
+     |         +--- com.vividsolutions:jts:1.13
+     |         +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |         +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |         \--- org.elasticsearch:jna:4.5.1
+     +--- com.fasterxml.jackson.core:jackson-core:2.9.6
+     +--- com.fasterxml.jackson.core:jackson-databind:2.9.6
+     |    +--- com.fasterxml.jackson.core:jackson-annotations:2.9.0
+     |    \--- com.fasterxml.jackson.core:jackson-core:2.9.6
+     +--- org.elasticsearch.plugin:transport-netty4-client:6.2.2 (*)
+     \--- org.slf4j:slf4j-api:1.7.25
+
+compileClasspath - Compile classpath for source set 'main'.
+\--- org.springframework.data:spring-data-elasticsearch:+ -&gt; 3.1.0.BUILD-SNAPSHOT
+     +--- org.springframework:spring-context:5.0.7.RELEASE
+     |    +--- org.springframework:spring-aop:5.0.7.RELEASE
+     |    |    +--- org.springframework:spring-beans:5.0.7.RELEASE
+     |    |    |    \--- org.springframework:spring-core:5.0.7.RELEASE
+     |    |    |         \--- org.springframework:spring-jcl:5.0.7.RELEASE
+     |    |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    +--- org.springframework:spring-beans:5.0.7.RELEASE (*)
+     |    +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    \--- org.springframework:spring-expression:5.0.7.RELEASE
+     |         \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     +--- org.springframework:spring-tx:5.0.7.RELEASE
+     |    +--- org.springframework:spring-beans:5.0.7.RELEASE (*)
+     |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     +--- org.springframework.data:spring-data-commons:2.1.0.BUILD-SNAPSHOT
+     |    +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    +--- org.springframework:spring-beans:5.0.7.RELEASE (*)
+     |    \--- org.slf4j:slf4j-api:1.7.25
+     +--- joda-time:joda-time:2.10
+     +--- org.elasticsearch.client:transport:6.2.2
+     |    +--- org.elasticsearch:elasticsearch:6.2.2
+     |    |    +--- org.elasticsearch:elasticsearch-core:6.2.2
+     |    |    |    \--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.lucene:lucene-core:7.2.1
+     |    |    +--- org.apache.lucene:lucene-analyzers-common:7.2.1
+     |    |    +--- org.apache.lucene:lucene-backward-codecs:7.2.1
+     |    |    +--- org.apache.lucene:lucene-grouping:7.2.1
+     |    |    +--- org.apache.lucene:lucene-highlighter:7.2.1
+     |    |    +--- org.apache.lucene:lucene-join:7.2.1
+     |    |    +--- org.apache.lucene:lucene-memory:7.2.1
+     |    |    +--- org.apache.lucene:lucene-misc:7.2.1
+     |    |    +--- org.apache.lucene:lucene-queries:7.2.1
+     |    |    +--- org.apache.lucene:lucene-queryparser:7.2.1
+     |    |    +--- org.apache.lucene:lucene-sandbox:7.2.1
+     |    |    +--- org.apache.lucene:lucene-spatial:7.2.1
+     |    |    +--- org.apache.lucene:lucene-spatial-extras:7.2.1
+     |    |    +--- org.apache.lucene:lucene-spatial3d:7.2.1
+     |    |    +--- org.apache.lucene:lucene-suggest:7.2.1
+     |    |    +--- org.elasticsearch:securesm:1.2
+     |    |    +--- org.elasticsearch:elasticsearch-cli:6.2.2
+     |    |    |    \--- net.sf.jopt-simple:jopt-simple:5.0.2
+     |    |    +--- com.carrotsearch:hppc:0.7.1
+     |    |    +--- joda-time:joda-time:2.9.9 -&gt; 2.10
+     |    |    +--- org.yaml:snakeyaml:1.17
+     |    |    +--- com.fasterxml.jackson.core:jackson-core:2.8.10 -&gt; 2.9.6
+     |    |    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-smile:2.8.10
+     |    |    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.8.10
+     |    |    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.8.10
+     |    |    +--- com.tdunning:t-digest:3.0
+     |    |    +--- org.hdrhistogram:HdrHistogram:2.1.9
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:transport-netty4-client:6.2.2
+     |    |    +--- io.netty:netty-buffer:4.1.16.Final
+     |    |    +--- io.netty:netty-codec:4.1.16.Final
+     |    |    +--- io.netty:netty-codec-http:4.1.16.Final
+     |    |    +--- io.netty:netty-common:4.1.16.Final
+     |    |    +--- io.netty:netty-handler:4.1.16.Final
+     |    |    +--- io.netty:netty-resolver:4.1.16.Final
+     |    |    +--- io.netty:netty-transport:4.1.16.Final
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:reindex-client:6.2.2
+     |    |    +--- org.elasticsearch.client:elasticsearch-rest-client:6.2.2
+     |    |    |    +--- org.apache.httpcomponents:httpclient:4.5.2
+     |    |    |    +--- org.apache.httpcomponents:httpcore:4.4.5
+     |    |    |    +--- org.apache.httpcomponents:httpasyncclient:4.1.2
+     |    |    |    +--- org.apache.httpcomponents:httpcore-nio:4.4.5
+     |    |    |    \--- commons-codec:commons-codec:1.10
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:lang-mustache-client:6.2.2
+     |    |    +--- com.github.spullara.mustache.java:compiler:0.9.3
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:percolator-client:6.2.2
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:parent-join-client:6.2.2
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    \--- org.elasticsearch.plugin:rank-eval-client:6.2.2
+     |         +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |         +--- org.locationtech.spatial4j:spatial4j:0.6
+     |         +--- com.vividsolutions:jts:1.13
+     |         +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |         +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |         \--- org.elasticsearch:jna:4.5.1
+     +--- com.fasterxml.jackson.core:jackson-core:2.9.6
+     +--- com.fasterxml.jackson.core:jackson-databind:2.9.6
+     |    +--- com.fasterxml.jackson.core:jackson-annotations:2.9.0
+     |    \--- com.fasterxml.jackson.core:jackson-core:2.9.6
+     +--- org.elasticsearch.plugin:transport-netty4-client:6.2.2 (*)
+     \--- org.slf4j:slf4j-api:1.7.25
+
+compileOnly - Compile only dependencies for source set 'main'.
+No dependencies
+
+default - Configuration for default artifacts.
+\--- org.springframework.data:spring-data-elasticsearch:+ -&gt; 3.1.0.BUILD-SNAPSHOT
+     +--- org.springframework:spring-context:5.0.7.RELEASE
+     |    +--- org.springframework:spring-aop:5.0.7.RELEASE
+     |    |    +--- org.springframework:spring-beans:5.0.7.RELEASE
+     |    |    |    \--- org.springframework:spring-core:5.0.7.RELEASE
+     |    |    |         \--- org.springframework:spring-jcl:5.0.7.RELEASE
+     |    |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    +--- org.springframework:spring-beans:5.0.7.RELEASE (*)
+     |    +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    \--- org.springframework:spring-expression:5.0.7.RELEASE
+     |         \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     +--- org.springframework:spring-tx:5.0.7.RELEASE
+     |    +--- org.springframework:spring-beans:5.0.7.RELEASE (*)
+     |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     +--- org.springframework.data:spring-data-commons:2.1.0.BUILD-SNAPSHOT
+     |    +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    +--- org.springframework:spring-beans:5.0.7.RELEASE (*)
+     |    \--- org.slf4j:slf4j-api:1.7.25
+     +--- joda-time:joda-time:2.10
+     +--- org.elasticsearch.client:transport:6.2.2
+     |    +--- org.elasticsearch:elasticsearch:6.2.2
+     |    |    +--- org.elasticsearch:elasticsearch-core:6.2.2
+     |    |    |    \--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.lucene:lucene-core:7.2.1
+     |    |    +--- org.apache.lucene:lucene-analyzers-common:7.2.1
+     |    |    +--- org.apache.lucene:lucene-backward-codecs:7.2.1
+     |    |    +--- org.apache.lucene:lucene-grouping:7.2.1
+     |    |    +--- org.apache.lucene:lucene-highlighter:7.2.1
+     |    |    +--- org.apache.lucene:lucene-join:7.2.1
+     |    |    +--- org.apache.lucene:lucene-memory:7.2.1
+     |    |    +--- org.apache.lucene:lucene-misc:7.2.1
+     |    |    +--- org.apache.lucene:lucene-queries:7.2.1
+     |    |    +--- org.apache.lucene:lucene-queryparser:7.2.1
+     |    |    +--- org.apache.lucene:lucene-sandbox:7.2.1
+     |    |    +--- org.apache.lucene:lucene-spatial:7.2.1
+     |    |    +--- org.apache.lucene:lucene-spatial-extras:7.2.1
+     |    |    +--- org.apache.lucene:lucene-spatial3d:7.2.1
+     |    |    +--- org.apache.lucene:lucene-suggest:7.2.1
+     |    |    +--- org.elasticsearch:securesm:1.2
+     |    |    +--- org.elasticsearch:elasticsearch-cli:6.2.2
+     |    |    |    \--- net.sf.jopt-simple:jopt-simple:5.0.2
+     |    |    +--- com.carrotsearch:hppc:0.7.1
+     |    |    +--- joda-time:joda-time:2.9.9 -&gt; 2.10
+     |    |    +--- org.yaml:snakeyaml:1.17
+     |    |    +--- com.fasterxml.jackson.core:jackson-core:2.8.10 -&gt; 2.9.6
+     |    |    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-smile:2.8.10
+     |    |    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.8.10
+     |    |    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.8.10
+     |    |    +--- com.tdunning:t-digest:3.0
+     |    |    +--- org.hdrhistogram:HdrHistogram:2.1.9
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:transport-netty4-client:6.2.2
+     |    |    +--- io.netty:netty-buffer:4.1.16.Final
+     |    |    +--- io.netty:netty-codec:4.1.16.Final
+     |    |    +--- io.netty:netty-codec-http:4.1.16.Final
+     |    |    +--- io.netty:netty-common:4.1.16.Final
+     |    |    +--- io.netty:netty-handler:4.1.16.Final
+     |    |    +--- io.netty:netty-resolver:4.1.16.Final
+     |    |    +--- io.netty:netty-transport:4.1.16.Final
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:reindex-client:6.2.2
+     |    |    +--- org.elasticsearch.client:elasticsearch-rest-client:6.2.2
+     |    |    |    +--- org.apache.httpcomponents:httpclient:4.5.2
+     |    |    |    +--- org.apache.httpcomponents:httpcore:4.4.5
+     |    |    |    +--- org.apache.httpcomponents:httpasyncclient:4.1.2
+     |    |    |    +--- org.apache.httpcomponents:httpcore-nio:4.4.5
+     |    |    |    \--- commons-codec:commons-codec:1.10
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:lang-mustache-client:6.2.2
+     |    |    +--- com.github.spullara.mustache.java:compiler:0.9.3
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:percolator-client:6.2.2
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:parent-join-client:6.2.2
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    \--- org.elasticsearch.plugin:rank-eval-client:6.2.2
+     |         +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |         +--- org.locationtech.spatial4j:spatial4j:0.6
+     |         +--- com.vividsolutions:jts:1.13
+     |         +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |         +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |         \--- org.elasticsearch:jna:4.5.1
+     +--- com.fasterxml.jackson.core:jackson-core:2.9.6
+     +--- com.fasterxml.jackson.core:jackson-databind:2.9.6
+     |    +--- com.fasterxml.jackson.core:jackson-annotations:2.9.0
+     |    \--- com.fasterxml.jackson.core:jackson-core:2.9.6
+     +--- org.elasticsearch.plugin:transport-netty4-client:6.2.2 (*)
+     \--- org.slf4j:slf4j-api:1.7.25
+
+implementation - Implementation only dependencies for source set 'main'. (n)
+No dependencies
+
+runtime - Runtime dependencies for source set 'main' (deprecated, use 'runtimeOnly ' instead).
+\--- org.springframework.data:spring-data-elasticsearch:+ -&gt; 3.1.0.BUILD-SNAPSHOT
+     +--- org.springframework:spring-context:5.0.7.RELEASE
+     |    +--- org.springframework:spring-aop:5.0.7.RELEASE
+     |    |    +--- org.springframework:spring-beans:5.0.7.RELEASE
+     |    |    |    \--- org.springframework:spring-core:5.0.7.RELEASE
+     |    |    |         \--- org.springframework:spring-jcl:5.0.7.RELEASE
+     |    |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    +--- org.springframework:spring-beans:5.0.7.RELEASE (*)
+     |    +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    \--- org.springframework:spring-expression:5.0.7.RELEASE
+     |         \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     +--- org.springframework:spring-tx:5.0.7.RELEASE
+     |    +--- org.springframework:spring-beans:5.0.7.RELEASE (*)
+     |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     +--- org.springframework.data:spring-data-commons:2.1.0.BUILD-SNAPSHOT
+     |    +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    +--- org.springframework:spring-beans:5.0.7.RELEASE (*)
+     |    \--- org.slf4j:slf4j-api:1.7.25
+     +--- joda-time:joda-time:2.10
+     +--- org.elasticsearch.client:transport:6.2.2
+     |    +--- org.elasticsearch:elasticsearch:6.2.2
+     |    |    +--- org.elasticsearch:elasticsearch-core:6.2.2
+     |    |    |    \--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.lucene:lucene-core:7.2.1
+     |    |    +--- org.apache.lucene:lucene-analyzers-common:7.2.1
+     |    |    +--- org.apache.lucene:lucene-backward-codecs:7.2.1
+     |    |    +--- org.apache.lucene:lucene-grouping:7.2.1
+     |    |    +--- org.apache.lucene:lucene-highlighter:7.2.1
+     |    |    +--- org.apache.lucene:lucene-join:7.2.1
+     |    |    +--- org.apache.lucene:lucene-memory:7.2.1
+     |    |    +--- org.apache.lucene:lucene-misc:7.2.1
+     |    |    +--- org.apache.lucene:lucene-queries:7.2.1
+     |    |    +--- org.apache.lucene:lucene-queryparser:7.2.1
+     |    |    +--- org.apache.lucene:lucene-sandbox:7.2.1
+     |    |    +--- org.apache.lucene:lucene-spatial:7.2.1
+     |    |    +--- org.apache.lucene:lucene-spatial-extras:7.2.1
+     |    |    +--- org.apache.lucene:lucene-spatial3d:7.2.1
+     |    |    +--- org.apache.lucene:lucene-suggest:7.2.1
+     |    |    +--- org.elasticsearch:securesm:1.2
+     |    |    +--- org.elasticsearch:elasticsearch-cli:6.2.2
+     |    |    |    \--- net.sf.jopt-simple:jopt-simple:5.0.2
+     |    |    +--- com.carrotsearch:hppc:0.7.1
+     |    |    +--- joda-time:joda-time:2.9.9 -&gt; 2.10
+     |    |    +--- org.yaml:snakeyaml:1.17
+     |    |    +--- com.fasterxml.jackson.core:jackson-core:2.8.10 -&gt; 2.9.6
+     |    |    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-smile:2.8.10
+     |    |    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.8.10
+     |    |    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.8.10
+     |    |    +--- com.tdunning:t-digest:3.0
+     |    |    +--- org.hdrhistogram:HdrHistogram:2.1.9
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:transport-netty4-client:6.2.2
+     |    |    +--- io.netty:netty-buffer:4.1.16.Final
+     |    |    +--- io.netty:netty-codec:4.1.16.Final
+     |    |    +--- io.netty:netty-codec-http:4.1.16.Final
+     |    |    +--- io.netty:netty-common:4.1.16.Final
+     |    |    +--- io.netty:netty-handler:4.1.16.Final
+     |    |    +--- io.netty:netty-resolver:4.1.16.Final
+     |    |    +--- io.netty:netty-transport:4.1.16.Final
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:reindex-client:6.2.2
+     |    |    +--- org.elasticsearch.client:elasticsearch-rest-client:6.2.2
+     |    |    |    +--- org.apache.httpcomponents:httpclient:4.5.2
+     |    |    |    +--- org.apache.httpcomponents:httpcore:4.4.5
+     |    |    |    +--- org.apache.httpcomponents:httpasyncclient:4.1.2
+     |    |    |    +--- org.apache.httpcomponents:httpcore-nio:4.4.5
+     |    |    |    \--- commons-codec:commons-codec:1.10
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:lang-mustache-client:6.2.2
+     |    |    +--- com.github.spullara.mustache.java:compiler:0.9.3
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:percolator-client:6.2.2
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:parent-join-client:6.2.2
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    \--- org.elasticsearch.plugin:rank-eval-client:6.2.2
+     |         +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |         +--- org.locationtech.spatial4j:spatial4j:0.6
+     |         +--- com.vividsolutions:jts:1.13
+     |         +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |         +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |         \--- org.elasticsearch:jna:4.5.1
+     +--- com.fasterxml.jackson.core:jackson-core:2.9.6
+     +--- com.fasterxml.jackson.core:jackson-databind:2.9.6
+     |    +--- com.fasterxml.jackson.core:jackson-annotations:2.9.0
+     |    \--- com.fasterxml.jackson.core:jackson-core:2.9.6
+     +--- org.elasticsearch.plugin:transport-netty4-client:6.2.2 (*)
+     \--- org.slf4j:slf4j-api:1.7.25
+
+runtimeClasspath - Runtime classpath of source set 'main'.
+\--- org.springframework.data:spring-data-elasticsearch:+ -&gt; 3.1.0.BUILD-SNAPSHOT
+     +--- org.springframework:spring-context:5.0.7.RELEASE
+     |    +--- org.springframework:spring-aop:5.0.7.RELEASE
+     |    |    +--- org.springframework:spring-beans:5.0.7.RELEASE
+     |    |    |    \--- org.springframework:spring-core:5.0.7.RELEASE
+     |    |    |         \--- org.springframework:spring-jcl:5.0.7.RELEASE
+     |    |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    +--- org.springframework:spring-beans:5.0.7.RELEASE (*)
+     |    +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    \--- org.springframework:spring-expression:5.0.7.RELEASE
+     |         \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     +--- org.springframework:spring-tx:5.0.7.RELEASE
+     |    +--- org.springframework:spring-beans:5.0.7.RELEASE (*)
+     |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     +--- org.springframework.data:spring-data-commons:2.1.0.BUILD-SNAPSHOT
+     |    +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    +--- org.springframework:spring-beans:5.0.7.RELEASE (*)
+     |    \--- org.slf4j:slf4j-api:1.7.25
+     +--- joda-time:joda-time:2.10
+     +--- org.elasticsearch.client:transport:6.2.2
+     |    +--- org.elasticsearch:elasticsearch:6.2.2
+     |    |    +--- org.elasticsearch:elasticsearch-core:6.2.2
+     |    |    |    \--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.lucene:lucene-core:7.2.1
+     |    |    +--- org.apache.lucene:lucene-analyzers-common:7.2.1
+     |    |    +--- org.apache.lucene:lucene-backward-codecs:7.2.1
+     |    |    +--- org.apache.lucene:lucene-grouping:7.2.1
+     |    |    +--- org.apache.lucene:lucene-highlighter:7.2.1
+     |    |    +--- org.apache.lucene:lucene-join:7.2.1
+     |    |    +--- org.apache.lucene:lucene-memory:7.2.1
+     |    |    +--- org.apache.lucene:lucene-misc:7.2.1
+     |    |    +--- org.apache.lucene:lucene-queries:7.2.1
+     |    |    +--- org.apache.lucene:lucene-queryparser:7.2.1
+     |    |    +--- org.apache.lucene:lucene-sandbox:7.2.1
+     |    |    +--- org.apache.lucene:lucene-spatial:7.2.1
+     |    |    +--- org.apache.lucene:lucene-spatial-extras:7.2.1
+     |    |    +--- org.apache.lucene:lucene-spatial3d:7.2.1
+     |    |    +--- org.apache.lucene:lucene-suggest:7.2.1
+     |    |    +--- org.elasticsearch:securesm:1.2
+     |    |    +--- org.elasticsearch:elasticsearch-cli:6.2.2
+     |    |    |    \--- net.sf.jopt-simple:jopt-simple:5.0.2
+     |    |    +--- com.carrotsearch:hppc:0.7.1
+     |    |    +--- joda-time:joda-time:2.9.9 -&gt; 2.10
+     |    |    +--- org.yaml:snakeyaml:1.17
+     |    |    +--- com.fasterxml.jackson.core:jackson-core:2.8.10 -&gt; 2.9.6
+     |    |    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-smile:2.8.10
+     |    |    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.8.10
+     |    |    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.8.10
+     |    |    +--- com.tdunning:t-digest:3.0
+     |    |    +--- org.hdrhistogram:HdrHistogram:2.1.9
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:transport-netty4-client:6.2.2
+     |    |    +--- io.netty:netty-buffer:4.1.16.Final
+     |    |    +--- io.netty:netty-codec:4.1.16.Final
+     |    |    +--- io.netty:netty-codec-http:4.1.16.Final
+     |    |    +--- io.netty:netty-common:4.1.16.Final
+     |    |    +--- io.netty:netty-handler:4.1.16.Final
+     |    |    +--- io.netty:netty-resolver:4.1.16.Final
+     |    |    +--- io.netty:netty-transport:4.1.16.Final
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:reindex-client:6.2.2
+     |    |    +--- org.elasticsearch.client:elasticsearch-rest-client:6.2.2
+     |    |    |    +--- org.apache.httpcomponents:httpclient:4.5.2
+     |    |    |    +--- org.apache.httpcomponents:httpcore:4.4.5
+     |    |    |    +--- org.apache.httpcomponents:httpasyncclient:4.1.2
+     |    |    |    +--- org.apache.httpcomponents:httpcore-nio:4.4.5
+     |    |    |    \--- commons-codec:commons-codec:1.10
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:lang-mustache-client:6.2.2
+     |    |    +--- com.github.spullara.mustache.java:compiler:0.9.3
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:percolator-client:6.2.2
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:parent-join-client:6.2.2
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    \--- org.elasticsearch.plugin:rank-eval-client:6.2.2
+     |         +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |         +--- org.locationtech.spatial4j:spatial4j:0.6
+     |         +--- com.vividsolutions:jts:1.13
+     |         +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |         +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |         \--- org.elasticsearch:jna:4.5.1
+     +--- com.fasterxml.jackson.core:jackson-core:2.9.6
+     +--- com.fasterxml.jackson.core:jackson-databind:2.9.6
+     |    +--- com.fasterxml.jackson.core:jackson-annotations:2.9.0
+     |    \--- com.fasterxml.jackson.core:jackson-core:2.9.6
+     +--- org.elasticsearch.plugin:transport-netty4-client:6.2.2 (*)
+     \--- org.slf4j:slf4j-api:1.7.25
+
+runtimeElements - Elements of runtime for main. (n)
+No dependencies
+
+runtimeOnly - Runtime only dependencies for source set 'main'. (n)
+No dependencies
+
+testAnnotationProcessor - Annotation processors and their dependencies for source set 'test'.
+No dependencies
+
+testCompile - Dependencies for source set 'test' (deprecated, use 'testImplementation ' instead).
+\--- org.springframework.data:spring-data-elasticsearch:+ -&gt; 3.1.0.BUILD-SNAPSHOT
+     +--- org.springframework:spring-context:5.0.7.RELEASE
+     |    +--- org.springframework:spring-aop:5.0.7.RELEASE
+     |    |    +--- org.springframework:spring-beans:5.0.7.RELEASE
+     |    |    |    \--- org.springframework:spring-core:5.0.7.RELEASE
+     |    |    |         \--- org.springframework:spring-jcl:5.0.7.RELEASE
+     |    |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    +--- org.springframework:spring-beans:5.0.7.RELEASE (*)
+     |    +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    \--- org.springframework:spring-expression:5.0.7.RELEASE
+     |         \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     +--- org.springframework:spring-tx:5.0.7.RELEASE
+     |    +--- org.springframework:spring-beans:5.0.7.RELEASE (*)
+     |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     +--- org.springframework.data:spring-data-commons:2.1.0.BUILD-SNAPSHOT
+     |    +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    +--- org.springframework:spring-beans:5.0.7.RELEASE (*)
+     |    \--- org.slf4j:slf4j-api:1.7.25
+     +--- joda-time:joda-time:2.10
+     +--- org.elasticsearch.client:transport:6.2.2
+     |    +--- org.elasticsearch:elasticsearch:6.2.2
+     |    |    +--- org.elasticsearch:elasticsearch-core:6.2.2
+     |    |    |    \--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.lucene:lucene-core:7.2.1
+     |    |    +--- org.apache.lucene:lucene-analyzers-common:7.2.1
+     |    |    +--- org.apache.lucene:lucene-backward-codecs:7.2.1
+     |    |    +--- org.apache.lucene:lucene-grouping:7.2.1
+     |    |    +--- org.apache.lucene:lucene-highlighter:7.2.1
+     |    |    +--- org.apache.lucene:lucene-join:7.2.1
+     |    |    +--- org.apache.lucene:lucene-memory:7.2.1
+     |    |    +--- org.apache.lucene:lucene-misc:7.2.1
+     |    |    +--- org.apache.lucene:lucene-queries:7.2.1
+     |    |    +--- org.apache.lucene:lucene-queryparser:7.2.1
+     |    |    +--- org.apache.lucene:lucene-sandbox:7.2.1
+     |    |    +--- org.apache.lucene:lucene-spatial:7.2.1
+     |    |    +--- org.apache.lucene:lucene-spatial-extras:7.2.1
+     |    |    +--- org.apache.lucene:lucene-spatial3d:7.2.1
+     |    |    +--- org.apache.lucene:lucene-suggest:7.2.1
+     |    |    +--- org.elasticsearch:securesm:1.2
+     |    |    +--- org.elasticsearch:elasticsearch-cli:6.2.2
+     |    |    |    \--- net.sf.jopt-simple:jopt-simple:5.0.2
+     |    |    +--- com.carrotsearch:hppc:0.7.1
+     |    |    +--- joda-time:joda-time:2.9.9 -&gt; 2.10
+     |    |    +--- org.yaml:snakeyaml:1.17
+     |    |    +--- com.fasterxml.jackson.core:jackson-core:2.8.10 -&gt; 2.9.6
+     |    |    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-smile:2.8.10
+     |    |    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.8.10
+     |    |    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.8.10
+     |    |    +--- com.tdunning:t-digest:3.0
+     |    |    +--- org.hdrhistogram:HdrHistogram:2.1.9
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:transport-netty4-client:6.2.2
+     |    |    +--- io.netty:netty-buffer:4.1.16.Final
+     |    |    +--- io.netty:netty-codec:4.1.16.Final
+     |    |    +--- io.netty:netty-codec-http:4.1.16.Final
+     |    |    +--- io.netty:netty-common:4.1.16.Final
+     |    |    +--- io.netty:netty-handler:4.1.16.Final
+     |    |    +--- io.netty:netty-resolver:4.1.16.Final
+     |    |    +--- io.netty:netty-transport:4.1.16.Final
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:reindex-client:6.2.2
+     |    |    +--- org.elasticsearch.client:elasticsearch-rest-client:6.2.2
+     |    |    |    +--- org.apache.httpcomponents:httpclient:4.5.2
+     |    |    |    +--- org.apache.httpcomponents:httpcore:4.4.5
+     |    |    |    +--- org.apache.httpcomponents:httpasyncclient:4.1.2
+     |    |    |    +--- org.apache.httpcomponents:httpcore-nio:4.4.5
+     |    |    |    \--- commons-codec:commons-codec:1.10
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:lang-mustache-client:6.2.2
+     |    |    +--- com.github.spullara.mustache.java:compiler:0.9.3
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:percolator-client:6.2.2
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:parent-join-client:6.2.2
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    \--- org.elasticsearch.plugin:rank-eval-client:6.2.2
+     |         +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |         +--- org.locationtech.spatial4j:spatial4j:0.6
+     |         +--- com.vividsolutions:jts:1.13
+     |         +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |         +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |         \--- org.elasticsearch:jna:4.5.1
+     +--- com.fasterxml.jackson.core:jackson-core:2.9.6
+     +--- com.fasterxml.jackson.core:jackson-databind:2.9.6
+     |    +--- com.fasterxml.jackson.core:jackson-annotations:2.9.0
+     |    \--- com.fasterxml.jackson.core:jackson-core:2.9.6
+     +--- org.elasticsearch.plugin:transport-netty4-client:6.2.2 (*)
+     \--- org.slf4j:slf4j-api:1.7.25
+
+testCompileClasspath - Compile classpath for source set 'test'.
+\--- org.springframework.data:spring-data-elasticsearch:+ -&gt; 3.1.0.BUILD-SNAPSHOT
+     +--- org.springframework:spring-context:5.0.7.RELEASE
+     |    +--- org.springframework:spring-aop:5.0.7.RELEASE
+     |    |    +--- org.springframework:spring-beans:5.0.7.RELEASE
+     |    |    |    \--- org.springframework:spring-core:5.0.7.RELEASE
+     |    |    |         \--- org.springframework:spring-jcl:5.0.7.RELEASE
+     |    |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    +--- org.springframework:spring-beans:5.0.7.RELEASE (*)
+     |    +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    \--- org.springframework:spring-expression:5.0.7.RELEASE
+     |         \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     +--- org.springframework:spring-tx:5.0.7.RELEASE
+     |    +--- org.springframework:spring-beans:5.0.7.RELEASE (*)
+     |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     +--- org.springframework.data:spring-data-commons:2.1.0.BUILD-SNAPSHOT
+     |    +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    +--- org.springframework:spring-beans:5.0.7.RELEASE (*)
+     |    \--- org.slf4j:slf4j-api:1.7.25
+     +--- joda-time:joda-time:2.10
+     +--- org.elasticsearch.client:transport:6.2.2
+     |    +--- org.elasticsearch:elasticsearch:6.2.2
+     |    |    +--- org.elasticsearch:elasticsearch-core:6.2.2
+     |    |    |    \--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.lucene:lucene-core:7.2.1
+     |    |    +--- org.apache.lucene:lucene-analyzers-common:7.2.1
+     |    |    +--- org.apache.lucene:lucene-backward-codecs:7.2.1
+     |    |    +--- org.apache.lucene:lucene-grouping:7.2.1
+     |    |    +--- org.apache.lucene:lucene-highlighter:7.2.1
+     |    |    +--- org.apache.lucene:lucene-join:7.2.1
+     |    |    +--- org.apache.lucene:lucene-memory:7.2.1
+     |    |    +--- org.apache.lucene:lucene-misc:7.2.1
+     |    |    +--- org.apache.lucene:lucene-queries:7.2.1
+     |    |    +--- org.apache.lucene:lucene-queryparser:7.2.1
+     |    |    +--- org.apache.lucene:lucene-sandbox:7.2.1
+     |    |    +--- org.apache.lucene:lucene-spatial:7.2.1
+     |    |    +--- org.apache.lucene:lucene-spatial-extras:7.2.1
+     |    |    +--- org.apache.lucene:lucene-spatial3d:7.2.1
+     |    |    +--- org.apache.lucene:lucene-suggest:7.2.1
+     |    |    +--- org.elasticsearch:securesm:1.2
+     |    |    +--- org.elasticsearch:elasticsearch-cli:6.2.2
+     |    |    |    \--- net.sf.jopt-simple:jopt-simple:5.0.2
+     |    |    +--- com.carrotsearch:hppc:0.7.1
+     |    |    +--- joda-time:joda-time:2.9.9 -&gt; 2.10
+     |    |    +--- org.yaml:snakeyaml:1.17
+     |    |    +--- com.fasterxml.jackson.core:jackson-core:2.8.10 -&gt; 2.9.6
+     |    |    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-smile:2.8.10
+     |    |    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.8.10
+     |    |    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.8.10
+     |    |    +--- com.tdunning:t-digest:3.0
+     |    |    +--- org.hdrhistogram:HdrHistogram:2.1.9
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:transport-netty4-client:6.2.2
+     |    |    +--- io.netty:netty-buffer:4.1.16.Final
+     |    |    +--- io.netty:netty-codec:4.1.16.Final
+     |    |    +--- io.netty:netty-codec-http:4.1.16.Final
+     |    |    +--- io.netty:netty-common:4.1.16.Final
+     |    |    +--- io.netty:netty-handler:4.1.16.Final
+     |    |    +--- io.netty:netty-resolver:4.1.16.Final
+     |    |    +--- io.netty:netty-transport:4.1.16.Final
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:reindex-client:6.2.2
+     |    |    +--- org.elasticsearch.client:elasticsearch-rest-client:6.2.2
+     |    |    |    +--- org.apache.httpcomponents:httpclient:4.5.2
+     |    |    |    +--- org.apache.httpcomponents:httpcore:4.4.5
+     |    |    |    +--- org.apache.httpcomponents:httpasyncclient:4.1.2
+     |    |    |    +--- org.apache.httpcomponents:httpcore-nio:4.4.5
+     |    |    |    \--- commons-codec:commons-codec:1.10
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:lang-mustache-client:6.2.2
+     |    |    +--- com.github.spullara.mustache.java:compiler:0.9.3
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:percolator-client:6.2.2
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:parent-join-client:6.2.2
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    \--- org.elasticsearch.plugin:rank-eval-client:6.2.2
+     |         +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |         +--- org.locationtech.spatial4j:spatial4j:0.6
+     |         +--- com.vividsolutions:jts:1.13
+     |         +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |         +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |         \--- org.elasticsearch:jna:4.5.1
+     +--- com.fasterxml.jackson.core:jackson-core:2.9.6
+     +--- com.fasterxml.jackson.core:jackson-databind:2.9.6
+     |    +--- com.fasterxml.jackson.core:jackson-annotations:2.9.0
+     |    \--- com.fasterxml.jackson.core:jackson-core:2.9.6
+     +--- org.elasticsearch.plugin:transport-netty4-client:6.2.2 (*)
+     \--- org.slf4j:slf4j-api:1.7.25
+
+testCompileOnly - Compile only dependencies for source set 'test'.
+No dependencies
+
+testImplementation - Implementation only dependencies for source set 'test'. (n)
+No dependencies
+
+testRuntime - Runtime dependencies for source set 'test' (deprecated, use 'testRuntimeOnly ' instead).
+\--- org.springframework.data:spring-data-elasticsearch:+ -&gt; 3.1.0.BUILD-SNAPSHOT
+     +--- org.springframework:spring-context:5.0.7.RELEASE
+     |    +--- org.springframework:spring-aop:5.0.7.RELEASE
+     |    |    +--- org.springframework:spring-beans:5.0.7.RELEASE
+     |    |    |    \--- org.springframework:spring-core:5.0.7.RELEASE
+     |    |    |         \--- org.springframework:spring-jcl:5.0.7.RELEASE
+     |    |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    +--- org.springframework:spring-beans:5.0.7.RELEASE (*)
+     |    +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    \--- org.springframework:spring-expression:5.0.7.RELEASE
+     |         \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     +--- org.springframework:spring-tx:5.0.7.RELEASE
+     |    +--- org.springframework:spring-beans:5.0.7.RELEASE (*)
+     |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     +--- org.springframework.data:spring-data-commons:2.1.0.BUILD-SNAPSHOT
+     |    +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    +--- org.springframework:spring-beans:5.0.7.RELEASE (*)
+     |    \--- org.slf4j:slf4j-api:1.7.25
+     +--- joda-time:joda-time:2.10
+     +--- org.elasticsearch.client:transport:6.2.2
+     |    +--- org.elasticsearch:elasticsearch:6.2.2
+     |    |    +--- org.elasticsearch:elasticsearch-core:6.2.2
+     |    |    |    \--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.lucene:lucene-core:7.2.1
+     |    |    +--- org.apache.lucene:lucene-analyzers-common:7.2.1
+     |    |    +--- org.apache.lucene:lucene-backward-codecs:7.2.1
+     |    |    +--- org.apache.lucene:lucene-grouping:7.2.1
+     |    |    +--- org.apache.lucene:lucene-highlighter:7.2.1
+     |    |    +--- org.apache.lucene:lucene-join:7.2.1
+     |    |    +--- org.apache.lucene:lucene-memory:7.2.1
+     |    |    +--- org.apache.lucene:lucene-misc:7.2.1
+     |    |    +--- org.apache.lucene:lucene-queries:7.2.1
+     |    |    +--- org.apache.lucene:lucene-queryparser:7.2.1
+     |    |    +--- org.apache.lucene:lucene-sandbox:7.2.1
+     |    |    +--- org.apache.lucene:lucene-spatial:7.2.1
+     |    |    +--- org.apache.lucene:lucene-spatial-extras:7.2.1
+     |    |    +--- org.apache.lucene:lucene-spatial3d:7.2.1
+     |    |    +--- org.apache.lucene:lucene-suggest:7.2.1
+     |    |    +--- org.elasticsearch:securesm:1.2
+     |    |    +--- org.elasticsearch:elasticsearch-cli:6.2.2
+     |    |    |    \--- net.sf.jopt-simple:jopt-simple:5.0.2
+     |    |    +--- com.carrotsearch:hppc:0.7.1
+     |    |    +--- joda-time:joda-time:2.9.9 -&gt; 2.10
+     |    |    +--- org.yaml:snakeyaml:1.17
+     |    |    +--- com.fasterxml.jackson.core:jackson-core:2.8.10 -&gt; 2.9.6
+     |    |    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-smile:2.8.10
+     |    |    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.8.10
+     |    |    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.8.10
+     |    |    +--- com.tdunning:t-digest:3.0
+     |    |    +--- org.hdrhistogram:HdrHistogram:2.1.9
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:transport-netty4-client:6.2.2
+     |    |    +--- io.netty:netty-buffer:4.1.16.Final
+     |    |    +--- io.netty:netty-codec:4.1.16.Final
+     |    |    +--- io.netty:netty-codec-http:4.1.16.Final
+     |    |    +--- io.netty:netty-common:4.1.16.Final
+     |    |    +--- io.netty:netty-handler:4.1.16.Final
+     |    |    +--- io.netty:netty-resolver:4.1.16.Final
+     |    |    +--- io.netty:netty-transport:4.1.16.Final
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:reindex-client:6.2.2
+     |    |    +--- org.elasticsearch.client:elasticsearch-rest-client:6.2.2
+     |    |    |    +--- org.apache.httpcomponents:httpclient:4.5.2
+     |    |    |    +--- org.apache.httpcomponents:httpcore:4.4.5
+     |    |    |    +--- org.apache.httpcomponents:httpasyncclient:4.1.2
+     |    |    |    +--- org.apache.httpcomponents:httpcore-nio:4.4.5
+     |    |    |    \--- commons-codec:commons-codec:1.10
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:lang-mustache-client:6.2.2
+     |    |    +--- com.github.spullara.mustache.java:compiler:0.9.3
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:percolator-client:6.2.2
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:parent-join-client:6.2.2
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    \--- org.elasticsearch.plugin:rank-eval-client:6.2.2
+     |         +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |         +--- org.locationtech.spatial4j:spatial4j:0.6
+     |         +--- com.vividsolutions:jts:1.13
+     |         +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |         +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |         \--- org.elasticsearch:jna:4.5.1
+     +--- com.fasterxml.jackson.core:jackson-core:2.9.6
+     +--- com.fasterxml.jackson.core:jackson-databind:2.9.6
+     |    +--- com.fasterxml.jackson.core:jackson-annotations:2.9.0
+     |    \--- com.fasterxml.jackson.core:jackson-core:2.9.6
+     +--- org.elasticsearch.plugin:transport-netty4-client:6.2.2 (*)
+     \--- org.slf4j:slf4j-api:1.7.25
+
+testRuntimeClasspath - Runtime classpath of source set 'test'.
+\--- org.springframework.data:spring-data-elasticsearch:+ -&gt; 3.1.0.BUILD-SNAPSHOT
+     +--- org.springframework:spring-context:5.0.7.RELEASE
+     |    +--- org.springframework:spring-aop:5.0.7.RELEASE
+     |    |    +--- org.springframework:spring-beans:5.0.7.RELEASE
+     |    |    |    \--- org.springframework:spring-core:5.0.7.RELEASE
+     |    |    |         \--- org.springframework:spring-jcl:5.0.7.RELEASE
+     |    |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    +--- org.springframework:spring-beans:5.0.7.RELEASE (*)
+     |    +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    \--- org.springframework:spring-expression:5.0.7.RELEASE
+     |         \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     +--- org.springframework:spring-tx:5.0.7.RELEASE
+     |    +--- org.springframework:spring-beans:5.0.7.RELEASE (*)
+     |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     +--- org.springframework.data:spring-data-commons:2.1.0.BUILD-SNAPSHOT
+     |    +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    +--- org.springframework:spring-beans:5.0.7.RELEASE (*)
+     |    \--- org.slf4j:slf4j-api:1.7.25
+     +--- joda-time:joda-time:2.10
+     +--- org.elasticsearch.client:transport:6.2.2
+     |    +--- org.elasticsearch:elasticsearch:6.2.2
+     |    |    +--- org.elasticsearch:elasticsearch-core:6.2.2
+     |    |    |    \--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.lucene:lucene-core:7.2.1
+     |    |    +--- org.apache.lucene:lucene-analyzers-common:7.2.1
+     |    |    +--- org.apache.lucene:lucene-backward-codecs:7.2.1
+     |    |    +--- org.apache.lucene:lucene-grouping:7.2.1
+     |    |    +--- org.apache.lucene:lucene-highlighter:7.2.1
+     |    |    +--- org.apache.lucene:lucene-join:7.2.1
+     |    |    +--- org.apache.lucene:lucene-memory:7.2.1
+     |    |    +--- org.apache.lucene:lucene-misc:7.2.1
+     |    |    +--- org.apache.lucene:lucene-queries:7.2.1
+     |    |    +--- org.apache.lucene:lucene-queryparser:7.2.1
+     |    |    +--- org.apache.lucene:lucene-sandbox:7.2.1
+     |    |    +--- org.apache.lucene:lucene-spatial:7.2.1
+     |    |    +--- org.apache.lucene:lucene-spatial-extras:7.2.1
+     |    |    +--- org.apache.lucene:lucene-spatial3d:7.2.1
+     |    |    +--- org.apache.lucene:lucene-suggest:7.2.1
+     |    |    +--- org.elasticsearch:securesm:1.2
+     |    |    +--- org.elasticsearch:elasticsearch-cli:6.2.2
+     |    |    |    \--- net.sf.jopt-simple:jopt-simple:5.0.2
+     |    |    +--- com.carrotsearch:hppc:0.7.1
+     |    |    +--- joda-time:joda-time:2.9.9 -&gt; 2.10
+     |    |    +--- org.yaml:snakeyaml:1.17
+     |    |    +--- com.fasterxml.jackson.core:jackson-core:2.8.10 -&gt; 2.9.6
+     |    |    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-smile:2.8.10
+     |    |    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.8.10
+     |    |    +--- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.8.10
+     |    |    +--- com.tdunning:t-digest:3.0
+     |    |    +--- org.hdrhistogram:HdrHistogram:2.1.9
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:transport-netty4-client:6.2.2
+     |    |    +--- io.netty:netty-buffer:4.1.16.Final
+     |    |    +--- io.netty:netty-codec:4.1.16.Final
+     |    |    +--- io.netty:netty-codec-http:4.1.16.Final
+     |    |    +--- io.netty:netty-common:4.1.16.Final
+     |    |    +--- io.netty:netty-handler:4.1.16.Final
+     |    |    +--- io.netty:netty-resolver:4.1.16.Final
+     |    |    +--- io.netty:netty-transport:4.1.16.Final
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:reindex-client:6.2.2
+     |    |    +--- org.elasticsearch.client:elasticsearch-rest-client:6.2.2
+     |    |    |    +--- org.apache.httpcomponents:httpclient:4.5.2
+     |    |    |    +--- org.apache.httpcomponents:httpcore:4.4.5
+     |    |    |    +--- org.apache.httpcomponents:httpasyncclient:4.1.2
+     |    |    |    +--- org.apache.httpcomponents:httpcore-nio:4.4.5
+     |    |    |    \--- commons-codec:commons-codec:1.10
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:lang-mustache-client:6.2.2
+     |    |    +--- com.github.spullara.mustache.java:compiler:0.9.3
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:percolator-client:6.2.2
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    +--- org.elasticsearch.plugin:parent-join-client:6.2.2
+     |    |    +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |    |    +--- org.locationtech.spatial4j:spatial4j:0.6
+     |    |    +--- com.vividsolutions:jts:1.13
+     |    |    +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |    |    +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |    |    \--- org.elasticsearch:jna:4.5.1
+     |    \--- org.elasticsearch.plugin:rank-eval-client:6.2.2
+     |         +--- org.elasticsearch:elasticsearch:6.2.2 (*)
+     |         +--- org.locationtech.spatial4j:spatial4j:0.6
+     |         +--- com.vividsolutions:jts:1.13
+     |         +--- org.apache.logging.log4j:log4j-api:2.9.1
+     |         +--- org.apache.logging.log4j:log4j-core:2.9.1
+     |         \--- org.elasticsearch:jna:4.5.1
+     +--- com.fasterxml.jackson.core:jackson-core:2.9.6
+     +--- com.fasterxml.jackson.core:jackson-databind:2.9.6
+     |    +--- com.fasterxml.jackson.core:jackson-annotations:2.9.0
+     |    \--- com.fasterxml.jackson.core:jackson-core:2.9.6
+     +--- org.elasticsearch.plugin:transport-netty4-client:6.2.2 (*)
+     \--- org.slf4j:slf4j-api:1.7.25
+
+testRuntimeOnly - Runtime only dependencies for source set 'test'. (n)
+No dependencies
+
+(*) - dependencies omitted (listed previously)
+
+A web-based, searchable dependency report is available by adding the --scan option.
+</code></pre>

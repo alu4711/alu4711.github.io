@@ -1,0 +1,65 @@
+
+
+/* Fills the page */
+html {
+    background: #CCCCCC;
+}
+
+
+body {
+    color: #666666;
+    background-color: #f8f8f8;
+    text-align: left;
+}
+
+
+pre {
+    color: #1a2778;
+    background-color: #EBECE4; 
+} 
+
+
+/* headers */
+h1 {
+    color: #1a2778;
+}
+
+h2 {
+    color: #1a2778;
+}
+
+h3 {
+    color: #1a2778;
+}
+
+h4 {
+    color: #1a2778;
+}
+
+
+/* unvisited link */
+a:link {
+    color: #1a2778;
+    text-decoration: none;
+} 
+
+
+/* visited link */
+a:visited {
+    color: #1a2778;
+    text-decoration: none;
+}
+
+
+/* mouse over link */
+a:hover {
+    color: #1a2778;
+    text-decoration: none;
+}
+
+
+/* selected link */
+a:active {
+    color: #1a2778;
+    text-decoration: none;
+}

@@ -1,0 +1,545 @@
+<p>------------------------------------------------------------
+    Root project
+    ------------------------------------------------------------</p>
+
+<pre><code>annotationProcessor - Annotation processors and their dependencies for source set 'main'.
+No dependencies
+
+apiElements - API elements for main. (n)
+No dependencies
+
+archives - Configuration for archive artifacts.
+No dependencies
+
+compile - Dependencies for source set 'main' (deprecated, use 'implementation ' instead).
+\--- org.springframework.boot:spring-boot-starter-test:+ -&gt; 2.0.3.RELEASE
+     +--- org.springframework.boot:spring-boot-starter:2.0.3.RELEASE
+     |    +--- org.springframework.boot:spring-boot:2.0.3.RELEASE
+     |    |    +--- org.springframework:spring-core:5.0.7.RELEASE
+     |    |    |    \--- org.springframework:spring-jcl:5.0.7.RELEASE
+     |    |    \--- org.springframework:spring-context:5.0.7.RELEASE
+     |    |         +--- org.springframework:spring-aop:5.0.7.RELEASE
+     |    |         |    +--- org.springframework:spring-beans:5.0.7.RELEASE
+     |    |         |    |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    |         |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    |         +--- org.springframework:spring-beans:5.0.7.RELEASE (*)
+     |    |         +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    |         \--- org.springframework:spring-expression:5.0.7.RELEASE
+     |    |              \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    +--- org.springframework.boot:spring-boot-autoconfigure:2.0.3.RELEASE
+     |    |    \--- org.springframework.boot:spring-boot:2.0.3.RELEASE (*)
+     |    +--- org.springframework.boot:spring-boot-starter-logging:2.0.3.RELEASE
+     |    |    +--- ch.qos.logback:logback-classic:1.2.3
+     |    |    |    +--- ch.qos.logback:logback-core:1.2.3
+     |    |    |    \--- org.slf4j:slf4j-api:1.7.25
+     |    |    +--- org.apache.logging.log4j:log4j-to-slf4j:2.10.0
+     |    |    |    +--- org.slf4j:slf4j-api:1.7.25
+     |    |    |    \--- org.apache.logging.log4j:log4j-api:2.10.0
+     |    |    \--- org.slf4j:jul-to-slf4j:1.7.25
+     |    |         \--- org.slf4j:slf4j-api:1.7.25
+     |    +--- javax.annotation:javax.annotation-api:1.3.2
+     |    +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    \--- org.yaml:snakeyaml:1.19
+     +--- org.springframework.boot:spring-boot-test:2.0.3.RELEASE
+     |    \--- org.springframework.boot:spring-boot:2.0.3.RELEASE (*)
+     +--- org.springframework.boot:spring-boot-test-autoconfigure:2.0.3.RELEASE
+     |    +--- org.springframework.boot:spring-boot-test:2.0.3.RELEASE (*)
+     |    \--- org.springframework.boot:spring-boot-autoconfigure:2.0.3.RELEASE (*)
+     +--- com.jayway.jsonpath:json-path:2.4.0
+     |    +--- net.minidev:json-smart:2.3
+     |    |    \--- net.minidev:accessors-smart:1.2
+     |    |         \--- org.ow2.asm:asm:5.0.4
+     |    \--- org.slf4j:slf4j-api:1.7.25
+     +--- junit:junit:4.12
+     |    \--- org.hamcrest:hamcrest-core:1.3
+     +--- org.assertj:assertj-core:3.9.1
+     +--- org.mockito:mockito-core:2.15.0
+     |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    +--- net.bytebuddy:byte-buddy-agent:1.7.9
+     |    \--- org.objenesis:objenesis:2.6
+     +--- org.hamcrest:hamcrest-core:1.3
+     +--- org.hamcrest:hamcrest-library:1.3
+     |    \--- org.hamcrest:hamcrest-core:1.3
+     +--- org.skyscreamer:jsonassert:1.5.0
+     |    \--- com.vaadin.external.google:android-json:0.0.20131108.vaadin1
+     +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     +--- org.springframework:spring-test:5.0.7.RELEASE
+     |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     \--- org.xmlunit:xmlunit-core:2.5.1
+
+compileClasspath - Compile classpath for source set 'main'.
+\--- org.springframework.boot:spring-boot-starter-test:+ -&gt; 2.0.3.RELEASE
+     +--- org.springframework.boot:spring-boot-starter:2.0.3.RELEASE
+     |    +--- org.springframework.boot:spring-boot:2.0.3.RELEASE
+     |    |    +--- org.springframework:spring-core:5.0.7.RELEASE
+     |    |    |    \--- org.springframework:spring-jcl:5.0.7.RELEASE
+     |    |    \--- org.springframework:spring-context:5.0.7.RELEASE
+     |    |         +--- org.springframework:spring-aop:5.0.7.RELEASE
+     |    |         |    +--- org.springframework:spring-beans:5.0.7.RELEASE
+     |    |         |    |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    |         |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    |         +--- org.springframework:spring-beans:5.0.7.RELEASE (*)
+     |    |         +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    |         \--- org.springframework:spring-expression:5.0.7.RELEASE
+     |    |              \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    +--- org.springframework.boot:spring-boot-autoconfigure:2.0.3.RELEASE
+     |    |    \--- org.springframework.boot:spring-boot:2.0.3.RELEASE (*)
+     |    +--- org.springframework.boot:spring-boot-starter-logging:2.0.3.RELEASE
+     |    |    +--- ch.qos.logback:logback-classic:1.2.3
+     |    |    |    +--- ch.qos.logback:logback-core:1.2.3
+     |    |    |    \--- org.slf4j:slf4j-api:1.7.25
+     |    |    +--- org.apache.logging.log4j:log4j-to-slf4j:2.10.0
+     |    |    |    +--- org.slf4j:slf4j-api:1.7.25
+     |    |    |    \--- org.apache.logging.log4j:log4j-api:2.10.0
+     |    |    \--- org.slf4j:jul-to-slf4j:1.7.25
+     |    |         \--- org.slf4j:slf4j-api:1.7.25
+     |    +--- javax.annotation:javax.annotation-api:1.3.2
+     |    +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    \--- org.yaml:snakeyaml:1.19
+     +--- org.springframework.boot:spring-boot-test:2.0.3.RELEASE
+     |    \--- org.springframework.boot:spring-boot:2.0.3.RELEASE (*)
+     +--- org.springframework.boot:spring-boot-test-autoconfigure:2.0.3.RELEASE
+     |    +--- org.springframework.boot:spring-boot-test:2.0.3.RELEASE (*)
+     |    \--- org.springframework.boot:spring-boot-autoconfigure:2.0.3.RELEASE (*)
+     +--- com.jayway.jsonpath:json-path:2.4.0
+     |    +--- net.minidev:json-smart:2.3
+     |    |    \--- net.minidev:accessors-smart:1.2
+     |    |         \--- org.ow2.asm:asm:5.0.4
+     |    \--- org.slf4j:slf4j-api:1.7.25
+     +--- junit:junit:4.12
+     |    \--- org.hamcrest:hamcrest-core:1.3
+     +--- org.assertj:assertj-core:3.9.1
+     +--- org.mockito:mockito-core:2.15.0
+     |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    +--- net.bytebuddy:byte-buddy-agent:1.7.9
+     |    \--- org.objenesis:objenesis:2.6
+     +--- org.hamcrest:hamcrest-core:1.3
+     +--- org.hamcrest:hamcrest-library:1.3
+     |    \--- org.hamcrest:hamcrest-core:1.3
+     +--- org.skyscreamer:jsonassert:1.5.0
+     |    \--- com.vaadin.external.google:android-json:0.0.20131108.vaadin1
+     +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     +--- org.springframework:spring-test:5.0.7.RELEASE
+     |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     \--- org.xmlunit:xmlunit-core:2.5.1
+
+compileOnly - Compile only dependencies for source set 'main'.
+No dependencies
+
+default - Configuration for default artifacts.
+\--- org.springframework.boot:spring-boot-starter-test:+ -&gt; 2.0.3.RELEASE
+     +--- org.springframework.boot:spring-boot-starter:2.0.3.RELEASE
+     |    +--- org.springframework.boot:spring-boot:2.0.3.RELEASE
+     |    |    +--- org.springframework:spring-core:5.0.7.RELEASE
+     |    |    |    \--- org.springframework:spring-jcl:5.0.7.RELEASE
+     |    |    \--- org.springframework:spring-context:5.0.7.RELEASE
+     |    |         +--- org.springframework:spring-aop:5.0.7.RELEASE
+     |    |         |    +--- org.springframework:spring-beans:5.0.7.RELEASE
+     |    |         |    |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    |         |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    |         +--- org.springframework:spring-beans:5.0.7.RELEASE (*)
+     |    |         +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    |         \--- org.springframework:spring-expression:5.0.7.RELEASE
+     |    |              \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    +--- org.springframework.boot:spring-boot-autoconfigure:2.0.3.RELEASE
+     |    |    \--- org.springframework.boot:spring-boot:2.0.3.RELEASE (*)
+     |    +--- org.springframework.boot:spring-boot-starter-logging:2.0.3.RELEASE
+     |    |    +--- ch.qos.logback:logback-classic:1.2.3
+     |    |    |    +--- ch.qos.logback:logback-core:1.2.3
+     |    |    |    \--- org.slf4j:slf4j-api:1.7.25
+     |    |    +--- org.apache.logging.log4j:log4j-to-slf4j:2.10.0
+     |    |    |    +--- org.slf4j:slf4j-api:1.7.25
+     |    |    |    \--- org.apache.logging.log4j:log4j-api:2.10.0
+     |    |    \--- org.slf4j:jul-to-slf4j:1.7.25
+     |    |         \--- org.slf4j:slf4j-api:1.7.25
+     |    +--- javax.annotation:javax.annotation-api:1.3.2
+     |    +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    \--- org.yaml:snakeyaml:1.19
+     +--- org.springframework.boot:spring-boot-test:2.0.3.RELEASE
+     |    \--- org.springframework.boot:spring-boot:2.0.3.RELEASE (*)
+     +--- org.springframework.boot:spring-boot-test-autoconfigure:2.0.3.RELEASE
+     |    +--- org.springframework.boot:spring-boot-test:2.0.3.RELEASE (*)
+     |    \--- org.springframework.boot:spring-boot-autoconfigure:2.0.3.RELEASE (*)
+     +--- com.jayway.jsonpath:json-path:2.4.0
+     |    +--- net.minidev:json-smart:2.3
+     |    |    \--- net.minidev:accessors-smart:1.2
+     |    |         \--- org.ow2.asm:asm:5.0.4
+     |    \--- org.slf4j:slf4j-api:1.7.25
+     +--- junit:junit:4.12
+     |    \--- org.hamcrest:hamcrest-core:1.3
+     +--- org.assertj:assertj-core:3.9.1
+     +--- org.mockito:mockito-core:2.15.0
+     |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    +--- net.bytebuddy:byte-buddy-agent:1.7.9
+     |    \--- org.objenesis:objenesis:2.6
+     +--- org.hamcrest:hamcrest-core:1.3
+     +--- org.hamcrest:hamcrest-library:1.3
+     |    \--- org.hamcrest:hamcrest-core:1.3
+     +--- org.skyscreamer:jsonassert:1.5.0
+     |    \--- com.vaadin.external.google:android-json:0.0.20131108.vaadin1
+     +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     +--- org.springframework:spring-test:5.0.7.RELEASE
+     |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     \--- org.xmlunit:xmlunit-core:2.5.1
+
+implementation - Implementation only dependencies for source set 'main'. (n)
+No dependencies
+
+runtime - Runtime dependencies for source set 'main' (deprecated, use 'runtimeOnly ' instead).
+\--- org.springframework.boot:spring-boot-starter-test:+ -&gt; 2.0.3.RELEASE
+     +--- org.springframework.boot:spring-boot-starter:2.0.3.RELEASE
+     |    +--- org.springframework.boot:spring-boot:2.0.3.RELEASE
+     |    |    +--- org.springframework:spring-core:5.0.7.RELEASE
+     |    |    |    \--- org.springframework:spring-jcl:5.0.7.RELEASE
+     |    |    \--- org.springframework:spring-context:5.0.7.RELEASE
+     |    |         +--- org.springframework:spring-aop:5.0.7.RELEASE
+     |    |         |    +--- org.springframework:spring-beans:5.0.7.RELEASE
+     |    |         |    |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    |         |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    |         +--- org.springframework:spring-beans:5.0.7.RELEASE (*)
+     |    |         +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    |         \--- org.springframework:spring-expression:5.0.7.RELEASE
+     |    |              \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    +--- org.springframework.boot:spring-boot-autoconfigure:2.0.3.RELEASE
+     |    |    \--- org.springframework.boot:spring-boot:2.0.3.RELEASE (*)
+     |    +--- org.springframework.boot:spring-boot-starter-logging:2.0.3.RELEASE
+     |    |    +--- ch.qos.logback:logback-classic:1.2.3
+     |    |    |    +--- ch.qos.logback:logback-core:1.2.3
+     |    |    |    \--- org.slf4j:slf4j-api:1.7.25
+     |    |    +--- org.apache.logging.log4j:log4j-to-slf4j:2.10.0
+     |    |    |    +--- org.slf4j:slf4j-api:1.7.25
+     |    |    |    \--- org.apache.logging.log4j:log4j-api:2.10.0
+     |    |    \--- org.slf4j:jul-to-slf4j:1.7.25
+     |    |         \--- org.slf4j:slf4j-api:1.7.25
+     |    +--- javax.annotation:javax.annotation-api:1.3.2
+     |    +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    \--- org.yaml:snakeyaml:1.19
+     +--- org.springframework.boot:spring-boot-test:2.0.3.RELEASE
+     |    \--- org.springframework.boot:spring-boot:2.0.3.RELEASE (*)
+     +--- org.springframework.boot:spring-boot-test-autoconfigure:2.0.3.RELEASE
+     |    +--- org.springframework.boot:spring-boot-test:2.0.3.RELEASE (*)
+     |    \--- org.springframework.boot:spring-boot-autoconfigure:2.0.3.RELEASE (*)
+     +--- com.jayway.jsonpath:json-path:2.4.0
+     |    +--- net.minidev:json-smart:2.3
+     |    |    \--- net.minidev:accessors-smart:1.2
+     |    |         \--- org.ow2.asm:asm:5.0.4
+     |    \--- org.slf4j:slf4j-api:1.7.25
+     +--- junit:junit:4.12
+     |    \--- org.hamcrest:hamcrest-core:1.3
+     +--- org.assertj:assertj-core:3.9.1
+     +--- org.mockito:mockito-core:2.15.0
+     |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    +--- net.bytebuddy:byte-buddy-agent:1.7.9
+     |    \--- org.objenesis:objenesis:2.6
+     +--- org.hamcrest:hamcrest-core:1.3
+     +--- org.hamcrest:hamcrest-library:1.3
+     |    \--- org.hamcrest:hamcrest-core:1.3
+     +--- org.skyscreamer:jsonassert:1.5.0
+     |    \--- com.vaadin.external.google:android-json:0.0.20131108.vaadin1
+     +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     +--- org.springframework:spring-test:5.0.7.RELEASE
+     |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     \--- org.xmlunit:xmlunit-core:2.5.1
+
+runtimeClasspath - Runtime classpath of source set 'main'.
+\--- org.springframework.boot:spring-boot-starter-test:+ -&gt; 2.0.3.RELEASE
+     +--- org.springframework.boot:spring-boot-starter:2.0.3.RELEASE
+     |    +--- org.springframework.boot:spring-boot:2.0.3.RELEASE
+     |    |    +--- org.springframework:spring-core:5.0.7.RELEASE
+     |    |    |    \--- org.springframework:spring-jcl:5.0.7.RELEASE
+     |    |    \--- org.springframework:spring-context:5.0.7.RELEASE
+     |    |         +--- org.springframework:spring-aop:5.0.7.RELEASE
+     |    |         |    +--- org.springframework:spring-beans:5.0.7.RELEASE
+     |    |         |    |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    |         |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    |         +--- org.springframework:spring-beans:5.0.7.RELEASE (*)
+     |    |         +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    |         \--- org.springframework:spring-expression:5.0.7.RELEASE
+     |    |              \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    +--- org.springframework.boot:spring-boot-autoconfigure:2.0.3.RELEASE
+     |    |    \--- org.springframework.boot:spring-boot:2.0.3.RELEASE (*)
+     |    +--- org.springframework.boot:spring-boot-starter-logging:2.0.3.RELEASE
+     |    |    +--- ch.qos.logback:logback-classic:1.2.3
+     |    |    |    +--- ch.qos.logback:logback-core:1.2.3
+     |    |    |    \--- org.slf4j:slf4j-api:1.7.25
+     |    |    +--- org.apache.logging.log4j:log4j-to-slf4j:2.10.0
+     |    |    |    +--- org.slf4j:slf4j-api:1.7.25
+     |    |    |    \--- org.apache.logging.log4j:log4j-api:2.10.0
+     |    |    \--- org.slf4j:jul-to-slf4j:1.7.25
+     |    |         \--- org.slf4j:slf4j-api:1.7.25
+     |    +--- javax.annotation:javax.annotation-api:1.3.2
+     |    +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    \--- org.yaml:snakeyaml:1.19
+     +--- org.springframework.boot:spring-boot-test:2.0.3.RELEASE
+     |    \--- org.springframework.boot:spring-boot:2.0.3.RELEASE (*)
+     +--- org.springframework.boot:spring-boot-test-autoconfigure:2.0.3.RELEASE
+     |    +--- org.springframework.boot:spring-boot-test:2.0.3.RELEASE (*)
+     |    \--- org.springframework.boot:spring-boot-autoconfigure:2.0.3.RELEASE (*)
+     +--- com.jayway.jsonpath:json-path:2.4.0
+     |    +--- net.minidev:json-smart:2.3
+     |    |    \--- net.minidev:accessors-smart:1.2
+     |    |         \--- org.ow2.asm:asm:5.0.4
+     |    \--- org.slf4j:slf4j-api:1.7.25
+     +--- junit:junit:4.12
+     |    \--- org.hamcrest:hamcrest-core:1.3
+     +--- org.assertj:assertj-core:3.9.1
+     +--- org.mockito:mockito-core:2.15.0
+     |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    +--- net.bytebuddy:byte-buddy-agent:1.7.9
+     |    \--- org.objenesis:objenesis:2.6
+     +--- org.hamcrest:hamcrest-core:1.3
+     +--- org.hamcrest:hamcrest-library:1.3
+     |    \--- org.hamcrest:hamcrest-core:1.3
+     +--- org.skyscreamer:jsonassert:1.5.0
+     |    \--- com.vaadin.external.google:android-json:0.0.20131108.vaadin1
+     +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     +--- org.springframework:spring-test:5.0.7.RELEASE
+     |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     \--- org.xmlunit:xmlunit-core:2.5.1
+
+runtimeElements - Elements of runtime for main. (n)
+No dependencies
+
+runtimeOnly - Runtime only dependencies for source set 'main'. (n)
+No dependencies
+
+testAnnotationProcessor - Annotation processors and their dependencies for source set 'test'.
+No dependencies
+
+testCompile - Dependencies for source set 'test' (deprecated, use 'testImplementation ' instead).
+\--- org.springframework.boot:spring-boot-starter-test:+ -&gt; 2.0.3.RELEASE
+     +--- org.springframework.boot:spring-boot-starter:2.0.3.RELEASE
+     |    +--- org.springframework.boot:spring-boot:2.0.3.RELEASE
+     |    |    +--- org.springframework:spring-core:5.0.7.RELEASE
+     |    |    |    \--- org.springframework:spring-jcl:5.0.7.RELEASE
+     |    |    \--- org.springframework:spring-context:5.0.7.RELEASE
+     |    |         +--- org.springframework:spring-aop:5.0.7.RELEASE
+     |    |         |    +--- org.springframework:spring-beans:5.0.7.RELEASE
+     |    |         |    |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    |         |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    |         +--- org.springframework:spring-beans:5.0.7.RELEASE (*)
+     |    |         +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    |         \--- org.springframework:spring-expression:5.0.7.RELEASE
+     |    |              \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    +--- org.springframework.boot:spring-boot-autoconfigure:2.0.3.RELEASE
+     |    |    \--- org.springframework.boot:spring-boot:2.0.3.RELEASE (*)
+     |    +--- org.springframework.boot:spring-boot-starter-logging:2.0.3.RELEASE
+     |    |    +--- ch.qos.logback:logback-classic:1.2.3
+     |    |    |    +--- ch.qos.logback:logback-core:1.2.3
+     |    |    |    \--- org.slf4j:slf4j-api:1.7.25
+     |    |    +--- org.apache.logging.log4j:log4j-to-slf4j:2.10.0
+     |    |    |    +--- org.slf4j:slf4j-api:1.7.25
+     |    |    |    \--- org.apache.logging.log4j:log4j-api:2.10.0
+     |    |    \--- org.slf4j:jul-to-slf4j:1.7.25
+     |    |         \--- org.slf4j:slf4j-api:1.7.25
+     |    +--- javax.annotation:javax.annotation-api:1.3.2
+     |    +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    \--- org.yaml:snakeyaml:1.19
+     +--- org.springframework.boot:spring-boot-test:2.0.3.RELEASE
+     |    \--- org.springframework.boot:spring-boot:2.0.3.RELEASE (*)
+     +--- org.springframework.boot:spring-boot-test-autoconfigure:2.0.3.RELEASE
+     |    +--- org.springframework.boot:spring-boot-test:2.0.3.RELEASE (*)
+     |    \--- org.springframework.boot:spring-boot-autoconfigure:2.0.3.RELEASE (*)
+     +--- com.jayway.jsonpath:json-path:2.4.0
+     |    +--- net.minidev:json-smart:2.3
+     |    |    \--- net.minidev:accessors-smart:1.2
+     |    |         \--- org.ow2.asm:asm:5.0.4
+     |    \--- org.slf4j:slf4j-api:1.7.25
+     +--- junit:junit:4.12
+     |    \--- org.hamcrest:hamcrest-core:1.3
+     +--- org.assertj:assertj-core:3.9.1
+     +--- org.mockito:mockito-core:2.15.0
+     |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    +--- net.bytebuddy:byte-buddy-agent:1.7.9
+     |    \--- org.objenesis:objenesis:2.6
+     +--- org.hamcrest:hamcrest-core:1.3
+     +--- org.hamcrest:hamcrest-library:1.3
+     |    \--- org.hamcrest:hamcrest-core:1.3
+     +--- org.skyscreamer:jsonassert:1.5.0
+     |    \--- com.vaadin.external.google:android-json:0.0.20131108.vaadin1
+     +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     +--- org.springframework:spring-test:5.0.7.RELEASE
+     |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     \--- org.xmlunit:xmlunit-core:2.5.1
+
+testCompileClasspath - Compile classpath for source set 'test'.
+\--- org.springframework.boot:spring-boot-starter-test:+ -&gt; 2.0.3.RELEASE
+     +--- org.springframework.boot:spring-boot-starter:2.0.3.RELEASE
+     |    +--- org.springframework.boot:spring-boot:2.0.3.RELEASE
+     |    |    +--- org.springframework:spring-core:5.0.7.RELEASE
+     |    |    |    \--- org.springframework:spring-jcl:5.0.7.RELEASE
+     |    |    \--- org.springframework:spring-context:5.0.7.RELEASE
+     |    |         +--- org.springframework:spring-aop:5.0.7.RELEASE
+     |    |         |    +--- org.springframework:spring-beans:5.0.7.RELEASE
+     |    |         |    |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    |         |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    |         +--- org.springframework:spring-beans:5.0.7.RELEASE (*)
+     |    |         +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    |         \--- org.springframework:spring-expression:5.0.7.RELEASE
+     |    |              \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    +--- org.springframework.boot:spring-boot-autoconfigure:2.0.3.RELEASE
+     |    |    \--- org.springframework.boot:spring-boot:2.0.3.RELEASE (*)
+     |    +--- org.springframework.boot:spring-boot-starter-logging:2.0.3.RELEASE
+     |    |    +--- ch.qos.logback:logback-classic:1.2.3
+     |    |    |    +--- ch.qos.logback:logback-core:1.2.3
+     |    |    |    \--- org.slf4j:slf4j-api:1.7.25
+     |    |    +--- org.apache.logging.log4j:log4j-to-slf4j:2.10.0
+     |    |    |    +--- org.slf4j:slf4j-api:1.7.25
+     |    |    |    \--- org.apache.logging.log4j:log4j-api:2.10.0
+     |    |    \--- org.slf4j:jul-to-slf4j:1.7.25
+     |    |         \--- org.slf4j:slf4j-api:1.7.25
+     |    +--- javax.annotation:javax.annotation-api:1.3.2
+     |    +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    \--- org.yaml:snakeyaml:1.19
+     +--- org.springframework.boot:spring-boot-test:2.0.3.RELEASE
+     |    \--- org.springframework.boot:spring-boot:2.0.3.RELEASE (*)
+     +--- org.springframework.boot:spring-boot-test-autoconfigure:2.0.3.RELEASE
+     |    +--- org.springframework.boot:spring-boot-test:2.0.3.RELEASE (*)
+     |    \--- org.springframework.boot:spring-boot-autoconfigure:2.0.3.RELEASE (*)
+     +--- com.jayway.jsonpath:json-path:2.4.0
+     |    +--- net.minidev:json-smart:2.3
+     |    |    \--- net.minidev:accessors-smart:1.2
+     |    |         \--- org.ow2.asm:asm:5.0.4
+     |    \--- org.slf4j:slf4j-api:1.7.25
+     +--- junit:junit:4.12
+     |    \--- org.hamcrest:hamcrest-core:1.3
+     +--- org.assertj:assertj-core:3.9.1
+     +--- org.mockito:mockito-core:2.15.0
+     |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    +--- net.bytebuddy:byte-buddy-agent:1.7.9
+     |    \--- org.objenesis:objenesis:2.6
+     +--- org.hamcrest:hamcrest-core:1.3
+     +--- org.hamcrest:hamcrest-library:1.3
+     |    \--- org.hamcrest:hamcrest-core:1.3
+     +--- org.skyscreamer:jsonassert:1.5.0
+     |    \--- com.vaadin.external.google:android-json:0.0.20131108.vaadin1
+     +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     +--- org.springframework:spring-test:5.0.7.RELEASE
+     |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     \--- org.xmlunit:xmlunit-core:2.5.1
+
+testCompileOnly - Compile only dependencies for source set 'test'.
+No dependencies
+
+testImplementation - Implementation only dependencies for source set 'test'. (n)
+No dependencies
+
+testRuntime - Runtime dependencies for source set 'test' (deprecated, use 'testRuntimeOnly ' instead).
+\--- org.springframework.boot:spring-boot-starter-test:+ -&gt; 2.0.3.RELEASE
+     +--- org.springframework.boot:spring-boot-starter:2.0.3.RELEASE
+     |    +--- org.springframework.boot:spring-boot:2.0.3.RELEASE
+     |    |    +--- org.springframework:spring-core:5.0.7.RELEASE
+     |    |    |    \--- org.springframework:spring-jcl:5.0.7.RELEASE
+     |    |    \--- org.springframework:spring-context:5.0.7.RELEASE
+     |    |         +--- org.springframework:spring-aop:5.0.7.RELEASE
+     |    |         |    +--- org.springframework:spring-beans:5.0.7.RELEASE
+     |    |         |    |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    |         |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    |         +--- org.springframework:spring-beans:5.0.7.RELEASE (*)
+     |    |         +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    |         \--- org.springframework:spring-expression:5.0.7.RELEASE
+     |    |              \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    +--- org.springframework.boot:spring-boot-autoconfigure:2.0.3.RELEASE
+     |    |    \--- org.springframework.boot:spring-boot:2.0.3.RELEASE (*)
+     |    +--- org.springframework.boot:spring-boot-starter-logging:2.0.3.RELEASE
+     |    |    +--- ch.qos.logback:logback-classic:1.2.3
+     |    |    |    +--- ch.qos.logback:logback-core:1.2.3
+     |    |    |    \--- org.slf4j:slf4j-api:1.7.25
+     |    |    +--- org.apache.logging.log4j:log4j-to-slf4j:2.10.0
+     |    |    |    +--- org.slf4j:slf4j-api:1.7.25
+     |    |    |    \--- org.apache.logging.log4j:log4j-api:2.10.0
+     |    |    \--- org.slf4j:jul-to-slf4j:1.7.25
+     |    |         \--- org.slf4j:slf4j-api:1.7.25
+     |    +--- javax.annotation:javax.annotation-api:1.3.2
+     |    +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    \--- org.yaml:snakeyaml:1.19
+     +--- org.springframework.boot:spring-boot-test:2.0.3.RELEASE
+     |    \--- org.springframework.boot:spring-boot:2.0.3.RELEASE (*)
+     +--- org.springframework.boot:spring-boot-test-autoconfigure:2.0.3.RELEASE
+     |    +--- org.springframework.boot:spring-boot-test:2.0.3.RELEASE (*)
+     |    \--- org.springframework.boot:spring-boot-autoconfigure:2.0.3.RELEASE (*)
+     +--- com.jayway.jsonpath:json-path:2.4.0
+     |    +--- net.minidev:json-smart:2.3
+     |    |    \--- net.minidev:accessors-smart:1.2
+     |    |         \--- org.ow2.asm:asm:5.0.4
+     |    \--- org.slf4j:slf4j-api:1.7.25
+     +--- junit:junit:4.12
+     |    \--- org.hamcrest:hamcrest-core:1.3
+     +--- org.assertj:assertj-core:3.9.1
+     +--- org.mockito:mockito-core:2.15.0
+     |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    +--- net.bytebuddy:byte-buddy-agent:1.7.9
+     |    \--- org.objenesis:objenesis:2.6
+     +--- org.hamcrest:hamcrest-core:1.3
+     +--- org.hamcrest:hamcrest-library:1.3
+     |    \--- org.hamcrest:hamcrest-core:1.3
+     +--- org.skyscreamer:jsonassert:1.5.0
+     |    \--- com.vaadin.external.google:android-json:0.0.20131108.vaadin1
+     +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     +--- org.springframework:spring-test:5.0.7.RELEASE
+     |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     \--- org.xmlunit:xmlunit-core:2.5.1
+
+testRuntimeClasspath - Runtime classpath of source set 'test'.
+\--- org.springframework.boot:spring-boot-starter-test:+ -&gt; 2.0.3.RELEASE
+     +--- org.springframework.boot:spring-boot-starter:2.0.3.RELEASE
+     |    +--- org.springframework.boot:spring-boot:2.0.3.RELEASE
+     |    |    +--- org.springframework:spring-core:5.0.7.RELEASE
+     |    |    |    \--- org.springframework:spring-jcl:5.0.7.RELEASE
+     |    |    \--- org.springframework:spring-context:5.0.7.RELEASE
+     |    |         +--- org.springframework:spring-aop:5.0.7.RELEASE
+     |    |         |    +--- org.springframework:spring-beans:5.0.7.RELEASE
+     |    |         |    |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    |         |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    |         +--- org.springframework:spring-beans:5.0.7.RELEASE (*)
+     |    |         +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    |         \--- org.springframework:spring-expression:5.0.7.RELEASE
+     |    |              \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    +--- org.springframework.boot:spring-boot-autoconfigure:2.0.3.RELEASE
+     |    |    \--- org.springframework.boot:spring-boot:2.0.3.RELEASE (*)
+     |    +--- org.springframework.boot:spring-boot-starter-logging:2.0.3.RELEASE
+     |    |    +--- ch.qos.logback:logback-classic:1.2.3
+     |    |    |    +--- ch.qos.logback:logback-core:1.2.3
+     |    |    |    \--- org.slf4j:slf4j-api:1.7.25
+     |    |    +--- org.apache.logging.log4j:log4j-to-slf4j:2.10.0
+     |    |    |    +--- org.slf4j:slf4j-api:1.7.25
+     |    |    |    \--- org.apache.logging.log4j:log4j-api:2.10.0
+     |    |    \--- org.slf4j:jul-to-slf4j:1.7.25
+     |    |         \--- org.slf4j:slf4j-api:1.7.25
+     |    +--- javax.annotation:javax.annotation-api:1.3.2
+     |    +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     |    \--- org.yaml:snakeyaml:1.19
+     +--- org.springframework.boot:spring-boot-test:2.0.3.RELEASE
+     |    \--- org.springframework.boot:spring-boot:2.0.3.RELEASE (*)
+     +--- org.springframework.boot:spring-boot-test-autoconfigure:2.0.3.RELEASE
+     |    +--- org.springframework.boot:spring-boot-test:2.0.3.RELEASE (*)
+     |    \--- org.springframework.boot:spring-boot-autoconfigure:2.0.3.RELEASE (*)
+     +--- com.jayway.jsonpath:json-path:2.4.0
+     |    +--- net.minidev:json-smart:2.3
+     |    |    \--- net.minidev:accessors-smart:1.2
+     |    |         \--- org.ow2.asm:asm:5.0.4
+     |    \--- org.slf4j:slf4j-api:1.7.25
+     +--- junit:junit:4.12
+     |    \--- org.hamcrest:hamcrest-core:1.3
+     +--- org.assertj:assertj-core:3.9.1
+     +--- org.mockito:mockito-core:2.15.0
+     |    +--- net.bytebuddy:byte-buddy:1.7.9
+     |    +--- net.bytebuddy:byte-buddy-agent:1.7.9
+     |    \--- org.objenesis:objenesis:2.6
+     +--- org.hamcrest:hamcrest-core:1.3
+     +--- org.hamcrest:hamcrest-library:1.3
+     |    \--- org.hamcrest:hamcrest-core:1.3
+     +--- org.skyscreamer:jsonassert:1.5.0
+     |    \--- com.vaadin.external.google:android-json:0.0.20131108.vaadin1
+     +--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     +--- org.springframework:spring-test:5.0.7.RELEASE
+     |    \--- org.springframework:spring-core:5.0.7.RELEASE (*)
+     \--- org.xmlunit:xmlunit-core:2.5.1
+
+testRuntimeOnly - Runtime only dependencies for source set 'test'. (n)
+No dependencies
+
+(*) - dependencies omitted (listed previously)
+
+A web-based, searchable dependency report is available by adding the --scan option.
+</code></pre>

@@ -1,0 +1,554 @@
+<p>------------------------------------------------------------
+    Root project
+    ------------------------------------------------------------</p>
+
+<pre><code>annotationProcessor - Annotation processors and their dependencies for source set 'main'.
+No dependencies
+
+apiElements - API elements for main. (n)
+No dependencies
+
+archives - Configuration for archive artifacts.
+No dependencies
+
+compile - Dependencies for source set 'main' (deprecated, use 'implementation ' instead).
+\--- org.hibernate:hibernate-tools:+ -&gt; 5.3.1.Final
+     +--- commons-collections:commons-collections:3.2.2
+     +--- commons-logging:commons-logging:1.2
+     +--- jaxen:jaxen:1.1.6
+     +--- org.apache.ant:ant:1.10.1
+     |    \--- org.apache.ant:ant-launcher:1.10.1
+     +--- org.eclipse.jdt:org.eclipse.jdt.core:3.12.2
+     |    +--- org.eclipse.platform:org.eclipse.core.resources:[3.3.0,4.0.0) -&gt; 3.13.0
+     |    |    +--- org.eclipse.platform:org.eclipse.core.expressions:[3.2.0,4.0.0) -&gt; 3.6.100
+     |    |    |    \--- org.eclipse.platform:org.eclipse.core.runtime:[3.3.0,4.0.0) -&gt; 3.14.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.osgi:[3.7.0,4.0.0) -&gt; 3.13.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.equinox.common:[3.8.0,4.0.0) -&gt; 3.10.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.core.jobs:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.8.0,4.0.0) -&gt; 3.10.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.equinox.registry:[3.8.0,4.0.0) -&gt; 3.8.0
+     |    |    |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.7.0,4.0.0) -&gt; 3.10.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.equinox.preferences:[3.4.0,4.0.0) -&gt; 3.7.100
+     |    |    |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.core.contenttype:[3.3.0,4.0.0) -&gt; 3.7.0
+     |    |    |         |    +--- org.eclipse.platform:org.eclipse.equinox.preferences:[3.2.0,4.0.0) -&gt; 3.7.100 (*)
+     |    |    |         |    +--- org.eclipse.platform:org.eclipse.equinox.registry:[3.2.0,4.0.0) -&gt; 3.8.0 (*)
+     |    |    |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    |         \--- org.eclipse.platform:org.eclipse.equinox.app:[1.0.0,) -&gt; 1.3.500
+     |    |    |              +--- org.eclipse.platform:org.eclipse.equinox.registry:[3.4.0,4.0.0) -&gt; 3.8.0 (*)
+     |    |    |              \--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    +--- org.eclipse.platform:org.eclipse.core.filesystem:[1.3.0,2.0.0) -&gt; 1.7.100
+     |    |    |    +--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    |    +--- org.eclipse.platform:org.eclipse.equinox.registry:[3.2.0,4.0.0) -&gt; 3.8.0 (*)
+     |    |    |    \--- org.eclipse.platform:org.eclipse.osgi:[3.2.0,4.0.0) -&gt; 3.13.0
+     |    |    \--- org.eclipse.platform:org.eclipse.core.runtime:[3.12.0,4.0.0) -&gt; 3.14.0 (*)
+     |    +--- org.eclipse.platform:org.eclipse.core.runtime:[3.3.0,4.0.0) -&gt; 3.14.0 (*)
+     |    +--- org.eclipse.platform:org.eclipse.core.filesystem:[1.0.0,2.0.0) -&gt; 1.7.100 (*)
+     |    \--- org.eclipse.platform:org.eclipse.text:[3.1.0,4.0.0) -&gt; 3.6.300
+     |         +--- org.eclipse.platform:org.eclipse.core.commands:[3.5.0,4.0.0) -&gt; 3.9.100
+     |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |         \--- org.eclipse.platform:org.eclipse.equinox.common:[3.5.0,4.0.0) -&gt; 3.10.0
+     +--- org.freemarker:freemarker:2.3.23
+     +--- org.hibernate:hibernate-core:5.3.1.Final
+     |    +--- org.jboss.logging:jboss-logging:3.3.2.Final
+     |    +--- javax.persistence:javax.persistence-api:2.2
+     |    +--- org.javassist:javassist:3.22.0-GA
+     |    +--- net.bytebuddy:byte-buddy:1.8.12
+     |    +--- antlr:antlr:2.7.7
+     |    +--- org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.1.1.Final
+     |    +--- org.jboss:jandex:2.0.3.Final
+     |    +--- com.fasterxml:classmate:1.3.4
+     |    +--- dom4j:dom4j:1.6.1
+     |    \--- org.hibernate.common:hibernate-commons-annotations:5.0.3.Final
+     |         \--- org.jboss.logging:jboss-logging:3.3.1.Final -&gt; 3.3.2.Final
+     +--- org.hibernate.common:hibernate-commons-annotations:5.0.3.Final (*)
+     +--- javax.persistence:javax.persistence-api:2.2
+     +--- org.slf4j:slf4j-api:1.7.23
+     \--- org.slf4j:slf4j-log4j12:1.7.23
+          +--- org.slf4j:slf4j-api:1.7.23
+          \--- log4j:log4j:1.2.17
+
+compileClasspath - Compile classpath for source set 'main'.
+\--- org.hibernate:hibernate-tools:+ -&gt; 5.3.1.Final
+     +--- commons-collections:commons-collections:3.2.2
+     +--- commons-logging:commons-logging:1.2
+     +--- jaxen:jaxen:1.1.6
+     +--- org.apache.ant:ant:1.10.1
+     |    \--- org.apache.ant:ant-launcher:1.10.1
+     +--- org.eclipse.jdt:org.eclipse.jdt.core:3.12.2
+     |    +--- org.eclipse.platform:org.eclipse.core.resources:[3.3.0,4.0.0) -&gt; 3.13.0
+     |    |    +--- org.eclipse.platform:org.eclipse.core.expressions:[3.2.0,4.0.0) -&gt; 3.6.100
+     |    |    |    \--- org.eclipse.platform:org.eclipse.core.runtime:[3.3.0,4.0.0) -&gt; 3.14.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.osgi:[3.7.0,4.0.0) -&gt; 3.13.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.equinox.common:[3.8.0,4.0.0) -&gt; 3.10.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.core.jobs:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.8.0,4.0.0) -&gt; 3.10.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.equinox.registry:[3.8.0,4.0.0) -&gt; 3.8.0
+     |    |    |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.7.0,4.0.0) -&gt; 3.10.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.equinox.preferences:[3.4.0,4.0.0) -&gt; 3.7.100
+     |    |    |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.core.contenttype:[3.3.0,4.0.0) -&gt; 3.7.0
+     |    |    |         |    +--- org.eclipse.platform:org.eclipse.equinox.preferences:[3.2.0,4.0.0) -&gt; 3.7.100 (*)
+     |    |    |         |    +--- org.eclipse.platform:org.eclipse.equinox.registry:[3.2.0,4.0.0) -&gt; 3.8.0 (*)
+     |    |    |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    |         \--- org.eclipse.platform:org.eclipse.equinox.app:[1.0.0,) -&gt; 1.3.500
+     |    |    |              +--- org.eclipse.platform:org.eclipse.equinox.registry:[3.4.0,4.0.0) -&gt; 3.8.0 (*)
+     |    |    |              \--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    +--- org.eclipse.platform:org.eclipse.core.filesystem:[1.3.0,2.0.0) -&gt; 1.7.100
+     |    |    |    +--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    |    +--- org.eclipse.platform:org.eclipse.equinox.registry:[3.2.0,4.0.0) -&gt; 3.8.0 (*)
+     |    |    |    \--- org.eclipse.platform:org.eclipse.osgi:[3.2.0,4.0.0) -&gt; 3.13.0
+     |    |    \--- org.eclipse.platform:org.eclipse.core.runtime:[3.12.0,4.0.0) -&gt; 3.14.0 (*)
+     |    +--- org.eclipse.platform:org.eclipse.core.runtime:[3.3.0,4.0.0) -&gt; 3.14.0 (*)
+     |    +--- org.eclipse.platform:org.eclipse.core.filesystem:[1.0.0,2.0.0) -&gt; 1.7.100 (*)
+     |    \--- org.eclipse.platform:org.eclipse.text:[3.1.0,4.0.0) -&gt; 3.6.300
+     |         +--- org.eclipse.platform:org.eclipse.core.commands:[3.5.0,4.0.0) -&gt; 3.9.100
+     |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |         \--- org.eclipse.platform:org.eclipse.equinox.common:[3.5.0,4.0.0) -&gt; 3.10.0
+     +--- org.freemarker:freemarker:2.3.23
+     +--- org.hibernate:hibernate-core:5.3.1.Final
+     |    +--- org.jboss.logging:jboss-logging:3.3.2.Final
+     |    +--- javax.persistence:javax.persistence-api:2.2
+     |    +--- org.javassist:javassist:3.22.0-GA
+     |    +--- net.bytebuddy:byte-buddy:1.8.12
+     |    +--- antlr:antlr:2.7.7
+     |    +--- org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.1.1.Final
+     |    +--- org.jboss:jandex:2.0.3.Final
+     |    +--- com.fasterxml:classmate:1.3.4
+     |    +--- dom4j:dom4j:1.6.1
+     |    \--- org.hibernate.common:hibernate-commons-annotations:5.0.3.Final
+     |         \--- org.jboss.logging:jboss-logging:3.3.1.Final -&gt; 3.3.2.Final
+     +--- org.hibernate.common:hibernate-commons-annotations:5.0.3.Final (*)
+     +--- javax.persistence:javax.persistence-api:2.2
+     +--- org.slf4j:slf4j-api:1.7.23
+     \--- org.slf4j:slf4j-log4j12:1.7.23
+          +--- org.slf4j:slf4j-api:1.7.23
+          \--- log4j:log4j:1.2.17
+
+compileOnly - Compile only dependencies for source set 'main'.
+No dependencies
+
+default - Configuration for default artifacts.
+\--- org.hibernate:hibernate-tools:+ -&gt; 5.3.1.Final
+     +--- commons-collections:commons-collections:3.2.2
+     +--- commons-logging:commons-logging:1.2
+     +--- jaxen:jaxen:1.1.6
+     +--- org.apache.ant:ant:1.10.1
+     |    \--- org.apache.ant:ant-launcher:1.10.1
+     +--- org.eclipse.jdt:org.eclipse.jdt.core:3.12.2
+     |    +--- org.eclipse.platform:org.eclipse.core.resources:[3.3.0,4.0.0) -&gt; 3.13.0
+     |    |    +--- org.eclipse.platform:org.eclipse.core.expressions:[3.2.0,4.0.0) -&gt; 3.6.100
+     |    |    |    \--- org.eclipse.platform:org.eclipse.core.runtime:[3.3.0,4.0.0) -&gt; 3.14.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.osgi:[3.7.0,4.0.0) -&gt; 3.13.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.equinox.common:[3.8.0,4.0.0) -&gt; 3.10.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.core.jobs:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.8.0,4.0.0) -&gt; 3.10.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.equinox.registry:[3.8.0,4.0.0) -&gt; 3.8.0
+     |    |    |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.7.0,4.0.0) -&gt; 3.10.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.equinox.preferences:[3.4.0,4.0.0) -&gt; 3.7.100
+     |    |    |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.core.contenttype:[3.3.0,4.0.0) -&gt; 3.7.0
+     |    |    |         |    +--- org.eclipse.platform:org.eclipse.equinox.preferences:[3.2.0,4.0.0) -&gt; 3.7.100 (*)
+     |    |    |         |    +--- org.eclipse.platform:org.eclipse.equinox.registry:[3.2.0,4.0.0) -&gt; 3.8.0 (*)
+     |    |    |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    |         \--- org.eclipse.platform:org.eclipse.equinox.app:[1.0.0,) -&gt; 1.3.500
+     |    |    |              +--- org.eclipse.platform:org.eclipse.equinox.registry:[3.4.0,4.0.0) -&gt; 3.8.0 (*)
+     |    |    |              \--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    +--- org.eclipse.platform:org.eclipse.core.filesystem:[1.3.0,2.0.0) -&gt; 1.7.100
+     |    |    |    +--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    |    +--- org.eclipse.platform:org.eclipse.equinox.registry:[3.2.0,4.0.0) -&gt; 3.8.0 (*)
+     |    |    |    \--- org.eclipse.platform:org.eclipse.osgi:[3.2.0,4.0.0) -&gt; 3.13.0
+     |    |    \--- org.eclipse.platform:org.eclipse.core.runtime:[3.12.0,4.0.0) -&gt; 3.14.0 (*)
+     |    +--- org.eclipse.platform:org.eclipse.core.runtime:[3.3.0,4.0.0) -&gt; 3.14.0 (*)
+     |    +--- org.eclipse.platform:org.eclipse.core.filesystem:[1.0.0,2.0.0) -&gt; 1.7.100 (*)
+     |    \--- org.eclipse.platform:org.eclipse.text:[3.1.0,4.0.0) -&gt; 3.6.300
+     |         +--- org.eclipse.platform:org.eclipse.core.commands:[3.5.0,4.0.0) -&gt; 3.9.100
+     |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |         \--- org.eclipse.platform:org.eclipse.equinox.common:[3.5.0,4.0.0) -&gt; 3.10.0
+     +--- org.freemarker:freemarker:2.3.23
+     +--- org.hibernate:hibernate-core:5.3.1.Final
+     |    +--- org.jboss.logging:jboss-logging:3.3.2.Final
+     |    +--- javax.persistence:javax.persistence-api:2.2
+     |    +--- org.javassist:javassist:3.22.0-GA
+     |    +--- net.bytebuddy:byte-buddy:1.8.12
+     |    +--- antlr:antlr:2.7.7
+     |    +--- org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.1.1.Final
+     |    +--- org.jboss:jandex:2.0.3.Final
+     |    +--- com.fasterxml:classmate:1.3.4
+     |    +--- dom4j:dom4j:1.6.1
+     |    \--- org.hibernate.common:hibernate-commons-annotations:5.0.3.Final
+     |         \--- org.jboss.logging:jboss-logging:3.3.1.Final -&gt; 3.3.2.Final
+     +--- org.hibernate.common:hibernate-commons-annotations:5.0.3.Final (*)
+     +--- javax.persistence:javax.persistence-api:2.2
+     +--- org.slf4j:slf4j-api:1.7.23
+     \--- org.slf4j:slf4j-log4j12:1.7.23
+          +--- org.slf4j:slf4j-api:1.7.23
+          \--- log4j:log4j:1.2.17
+
+implementation - Implementation only dependencies for source set 'main'. (n)
+No dependencies
+
+runtime - Runtime dependencies for source set 'main' (deprecated, use 'runtimeOnly ' instead).
+\--- org.hibernate:hibernate-tools:+ -&gt; 5.3.1.Final
+     +--- commons-collections:commons-collections:3.2.2
+     +--- commons-logging:commons-logging:1.2
+     +--- jaxen:jaxen:1.1.6
+     +--- org.apache.ant:ant:1.10.1
+     |    \--- org.apache.ant:ant-launcher:1.10.1
+     +--- org.eclipse.jdt:org.eclipse.jdt.core:3.12.2
+     |    +--- org.eclipse.platform:org.eclipse.core.resources:[3.3.0,4.0.0) -&gt; 3.13.0
+     |    |    +--- org.eclipse.platform:org.eclipse.core.expressions:[3.2.0,4.0.0) -&gt; 3.6.100
+     |    |    |    \--- org.eclipse.platform:org.eclipse.core.runtime:[3.3.0,4.0.0) -&gt; 3.14.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.osgi:[3.7.0,4.0.0) -&gt; 3.13.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.equinox.common:[3.8.0,4.0.0) -&gt; 3.10.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.core.jobs:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.8.0,4.0.0) -&gt; 3.10.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.equinox.registry:[3.8.0,4.0.0) -&gt; 3.8.0
+     |    |    |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.7.0,4.0.0) -&gt; 3.10.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.equinox.preferences:[3.4.0,4.0.0) -&gt; 3.7.100
+     |    |    |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.core.contenttype:[3.3.0,4.0.0) -&gt; 3.7.0
+     |    |    |         |    +--- org.eclipse.platform:org.eclipse.equinox.preferences:[3.2.0,4.0.0) -&gt; 3.7.100 (*)
+     |    |    |         |    +--- org.eclipse.platform:org.eclipse.equinox.registry:[3.2.0,4.0.0) -&gt; 3.8.0 (*)
+     |    |    |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    |         \--- org.eclipse.platform:org.eclipse.equinox.app:[1.0.0,) -&gt; 1.3.500
+     |    |    |              +--- org.eclipse.platform:org.eclipse.equinox.registry:[3.4.0,4.0.0) -&gt; 3.8.0 (*)
+     |    |    |              \--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    +--- org.eclipse.platform:org.eclipse.core.filesystem:[1.3.0,2.0.0) -&gt; 1.7.100
+     |    |    |    +--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    |    +--- org.eclipse.platform:org.eclipse.equinox.registry:[3.2.0,4.0.0) -&gt; 3.8.0 (*)
+     |    |    |    \--- org.eclipse.platform:org.eclipse.osgi:[3.2.0,4.0.0) -&gt; 3.13.0
+     |    |    \--- org.eclipse.platform:org.eclipse.core.runtime:[3.12.0,4.0.0) -&gt; 3.14.0 (*)
+     |    +--- org.eclipse.platform:org.eclipse.core.runtime:[3.3.0,4.0.0) -&gt; 3.14.0 (*)
+     |    +--- org.eclipse.platform:org.eclipse.core.filesystem:[1.0.0,2.0.0) -&gt; 1.7.100 (*)
+     |    \--- org.eclipse.platform:org.eclipse.text:[3.1.0,4.0.0) -&gt; 3.6.300
+     |         +--- org.eclipse.platform:org.eclipse.core.commands:[3.5.0,4.0.0) -&gt; 3.9.100
+     |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |         \--- org.eclipse.platform:org.eclipse.equinox.common:[3.5.0,4.0.0) -&gt; 3.10.0
+     +--- org.freemarker:freemarker:2.3.23
+     +--- org.hibernate:hibernate-core:5.3.1.Final
+     |    +--- org.jboss.logging:jboss-logging:3.3.2.Final
+     |    +--- javax.persistence:javax.persistence-api:2.2
+     |    +--- org.javassist:javassist:3.22.0-GA
+     |    +--- net.bytebuddy:byte-buddy:1.8.12
+     |    +--- antlr:antlr:2.7.7
+     |    +--- org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.1.1.Final
+     |    +--- org.jboss:jandex:2.0.3.Final
+     |    +--- com.fasterxml:classmate:1.3.4
+     |    +--- dom4j:dom4j:1.6.1
+     |    \--- org.hibernate.common:hibernate-commons-annotations:5.0.3.Final
+     |         \--- org.jboss.logging:jboss-logging:3.3.1.Final -&gt; 3.3.2.Final
+     +--- org.hibernate.common:hibernate-commons-annotations:5.0.3.Final (*)
+     +--- javax.persistence:javax.persistence-api:2.2
+     +--- org.slf4j:slf4j-api:1.7.23
+     \--- org.slf4j:slf4j-log4j12:1.7.23
+          +--- org.slf4j:slf4j-api:1.7.23
+          \--- log4j:log4j:1.2.17
+
+runtimeClasspath - Runtime classpath of source set 'main'.
+\--- org.hibernate:hibernate-tools:+ -&gt; 5.3.1.Final
+     +--- commons-collections:commons-collections:3.2.2
+     +--- commons-logging:commons-logging:1.2
+     +--- jaxen:jaxen:1.1.6
+     +--- org.apache.ant:ant:1.10.1
+     |    \--- org.apache.ant:ant-launcher:1.10.1
+     +--- org.eclipse.jdt:org.eclipse.jdt.core:3.12.2
+     |    +--- org.eclipse.platform:org.eclipse.core.resources:[3.3.0,4.0.0) -&gt; 3.13.0
+     |    |    +--- org.eclipse.platform:org.eclipse.core.expressions:[3.2.0,4.0.0) -&gt; 3.6.100
+     |    |    |    \--- org.eclipse.platform:org.eclipse.core.runtime:[3.3.0,4.0.0) -&gt; 3.14.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.osgi:[3.7.0,4.0.0) -&gt; 3.13.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.equinox.common:[3.8.0,4.0.0) -&gt; 3.10.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.core.jobs:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.8.0,4.0.0) -&gt; 3.10.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.equinox.registry:[3.8.0,4.0.0) -&gt; 3.8.0
+     |    |    |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.7.0,4.0.0) -&gt; 3.10.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.equinox.preferences:[3.4.0,4.0.0) -&gt; 3.7.100
+     |    |    |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.core.contenttype:[3.3.0,4.0.0) -&gt; 3.7.0
+     |    |    |         |    +--- org.eclipse.platform:org.eclipse.equinox.preferences:[3.2.0,4.0.0) -&gt; 3.7.100 (*)
+     |    |    |         |    +--- org.eclipse.platform:org.eclipse.equinox.registry:[3.2.0,4.0.0) -&gt; 3.8.0 (*)
+     |    |    |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    |         \--- org.eclipse.platform:org.eclipse.equinox.app:[1.0.0,) -&gt; 1.3.500
+     |    |    |              +--- org.eclipse.platform:org.eclipse.equinox.registry:[3.4.0,4.0.0) -&gt; 3.8.0 (*)
+     |    |    |              \--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    +--- org.eclipse.platform:org.eclipse.core.filesystem:[1.3.0,2.0.0) -&gt; 1.7.100
+     |    |    |    +--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    |    +--- org.eclipse.platform:org.eclipse.equinox.registry:[3.2.0,4.0.0) -&gt; 3.8.0 (*)
+     |    |    |    \--- org.eclipse.platform:org.eclipse.osgi:[3.2.0,4.0.0) -&gt; 3.13.0
+     |    |    \--- org.eclipse.platform:org.eclipse.core.runtime:[3.12.0,4.0.0) -&gt; 3.14.0 (*)
+     |    +--- org.eclipse.platform:org.eclipse.core.runtime:[3.3.0,4.0.0) -&gt; 3.14.0 (*)
+     |    +--- org.eclipse.platform:org.eclipse.core.filesystem:[1.0.0,2.0.0) -&gt; 1.7.100 (*)
+     |    \--- org.eclipse.platform:org.eclipse.text:[3.1.0,4.0.0) -&gt; 3.6.300
+     |         +--- org.eclipse.platform:org.eclipse.core.commands:[3.5.0,4.0.0) -&gt; 3.9.100
+     |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |         \--- org.eclipse.platform:org.eclipse.equinox.common:[3.5.0,4.0.0) -&gt; 3.10.0
+     +--- org.freemarker:freemarker:2.3.23
+     +--- org.hibernate:hibernate-core:5.3.1.Final
+     |    +--- org.jboss.logging:jboss-logging:3.3.2.Final
+     |    +--- javax.persistence:javax.persistence-api:2.2
+     |    +--- org.javassist:javassist:3.22.0-GA
+     |    +--- net.bytebuddy:byte-buddy:1.8.12
+     |    +--- antlr:antlr:2.7.7
+     |    +--- org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.1.1.Final
+     |    +--- org.jboss:jandex:2.0.3.Final
+     |    +--- com.fasterxml:classmate:1.3.4
+     |    +--- dom4j:dom4j:1.6.1
+     |    \--- org.hibernate.common:hibernate-commons-annotations:5.0.3.Final
+     |         \--- org.jboss.logging:jboss-logging:3.3.1.Final -&gt; 3.3.2.Final
+     +--- org.hibernate.common:hibernate-commons-annotations:5.0.3.Final (*)
+     +--- javax.persistence:javax.persistence-api:2.2
+     +--- org.slf4j:slf4j-api:1.7.23
+     \--- org.slf4j:slf4j-log4j12:1.7.23
+          +--- org.slf4j:slf4j-api:1.7.23
+          \--- log4j:log4j:1.2.17
+
+runtimeElements - Elements of runtime for main. (n)
+No dependencies
+
+runtimeOnly - Runtime only dependencies for source set 'main'. (n)
+No dependencies
+
+testAnnotationProcessor - Annotation processors and their dependencies for source set 'test'.
+No dependencies
+
+testCompile - Dependencies for source set 'test' (deprecated, use 'testImplementation ' instead).
+\--- org.hibernate:hibernate-tools:+ -&gt; 5.3.1.Final
+     +--- commons-collections:commons-collections:3.2.2
+     +--- commons-logging:commons-logging:1.2
+     +--- jaxen:jaxen:1.1.6
+     +--- org.apache.ant:ant:1.10.1
+     |    \--- org.apache.ant:ant-launcher:1.10.1
+     +--- org.eclipse.jdt:org.eclipse.jdt.core:3.12.2
+     |    +--- org.eclipse.platform:org.eclipse.core.resources:[3.3.0,4.0.0) -&gt; 3.13.0
+     |    |    +--- org.eclipse.platform:org.eclipse.core.expressions:[3.2.0,4.0.0) -&gt; 3.6.100
+     |    |    |    \--- org.eclipse.platform:org.eclipse.core.runtime:[3.3.0,4.0.0) -&gt; 3.14.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.osgi:[3.7.0,4.0.0) -&gt; 3.13.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.equinox.common:[3.8.0,4.0.0) -&gt; 3.10.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.core.jobs:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.8.0,4.0.0) -&gt; 3.10.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.equinox.registry:[3.8.0,4.0.0) -&gt; 3.8.0
+     |    |    |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.7.0,4.0.0) -&gt; 3.10.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.equinox.preferences:[3.4.0,4.0.0) -&gt; 3.7.100
+     |    |    |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.core.contenttype:[3.3.0,4.0.0) -&gt; 3.7.0
+     |    |    |         |    +--- org.eclipse.platform:org.eclipse.equinox.preferences:[3.2.0,4.0.0) -&gt; 3.7.100 (*)
+     |    |    |         |    +--- org.eclipse.platform:org.eclipse.equinox.registry:[3.2.0,4.0.0) -&gt; 3.8.0 (*)
+     |    |    |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    |         \--- org.eclipse.platform:org.eclipse.equinox.app:[1.0.0,) -&gt; 1.3.500
+     |    |    |              +--- org.eclipse.platform:org.eclipse.equinox.registry:[3.4.0,4.0.0) -&gt; 3.8.0 (*)
+     |    |    |              \--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    +--- org.eclipse.platform:org.eclipse.core.filesystem:[1.3.0,2.0.0) -&gt; 1.7.100
+     |    |    |    +--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    |    +--- org.eclipse.platform:org.eclipse.equinox.registry:[3.2.0,4.0.0) -&gt; 3.8.0 (*)
+     |    |    |    \--- org.eclipse.platform:org.eclipse.osgi:[3.2.0,4.0.0) -&gt; 3.13.0
+     |    |    \--- org.eclipse.platform:org.eclipse.core.runtime:[3.12.0,4.0.0) -&gt; 3.14.0 (*)
+     |    +--- org.eclipse.platform:org.eclipse.core.runtime:[3.3.0,4.0.0) -&gt; 3.14.0 (*)
+     |    +--- org.eclipse.platform:org.eclipse.core.filesystem:[1.0.0,2.0.0) -&gt; 1.7.100 (*)
+     |    \--- org.eclipse.platform:org.eclipse.text:[3.1.0,4.0.0) -&gt; 3.6.300
+     |         +--- org.eclipse.platform:org.eclipse.core.commands:[3.5.0,4.0.0) -&gt; 3.9.100
+     |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |         \--- org.eclipse.platform:org.eclipse.equinox.common:[3.5.0,4.0.0) -&gt; 3.10.0
+     +--- org.freemarker:freemarker:2.3.23
+     +--- org.hibernate:hibernate-core:5.3.1.Final
+     |    +--- org.jboss.logging:jboss-logging:3.3.2.Final
+     |    +--- javax.persistence:javax.persistence-api:2.2
+     |    +--- org.javassist:javassist:3.22.0-GA
+     |    +--- net.bytebuddy:byte-buddy:1.8.12
+     |    +--- antlr:antlr:2.7.7
+     |    +--- org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.1.1.Final
+     |    +--- org.jboss:jandex:2.0.3.Final
+     |    +--- com.fasterxml:classmate:1.3.4
+     |    +--- dom4j:dom4j:1.6.1
+     |    \--- org.hibernate.common:hibernate-commons-annotations:5.0.3.Final
+     |         \--- org.jboss.logging:jboss-logging:3.3.1.Final -&gt; 3.3.2.Final
+     +--- org.hibernate.common:hibernate-commons-annotations:5.0.3.Final (*)
+     +--- javax.persistence:javax.persistence-api:2.2
+     +--- org.slf4j:slf4j-api:1.7.23
+     \--- org.slf4j:slf4j-log4j12:1.7.23
+          +--- org.slf4j:slf4j-api:1.7.23
+          \--- log4j:log4j:1.2.17
+
+testCompileClasspath - Compile classpath for source set 'test'.
+\--- org.hibernate:hibernate-tools:+ -&gt; 5.3.1.Final
+     +--- commons-collections:commons-collections:3.2.2
+     +--- commons-logging:commons-logging:1.2
+     +--- jaxen:jaxen:1.1.6
+     +--- org.apache.ant:ant:1.10.1
+     |    \--- org.apache.ant:ant-launcher:1.10.1
+     +--- org.eclipse.jdt:org.eclipse.jdt.core:3.12.2
+     |    +--- org.eclipse.platform:org.eclipse.core.resources:[3.3.0,4.0.0) -&gt; 3.13.0
+     |    |    +--- org.eclipse.platform:org.eclipse.core.expressions:[3.2.0,4.0.0) -&gt; 3.6.100
+     |    |    |    \--- org.eclipse.platform:org.eclipse.core.runtime:[3.3.0,4.0.0) -&gt; 3.14.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.osgi:[3.7.0,4.0.0) -&gt; 3.13.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.equinox.common:[3.8.0,4.0.0) -&gt; 3.10.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.core.jobs:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.8.0,4.0.0) -&gt; 3.10.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.equinox.registry:[3.8.0,4.0.0) -&gt; 3.8.0
+     |    |    |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.7.0,4.0.0) -&gt; 3.10.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.equinox.preferences:[3.4.0,4.0.0) -&gt; 3.7.100
+     |    |    |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.core.contenttype:[3.3.0,4.0.0) -&gt; 3.7.0
+     |    |    |         |    +--- org.eclipse.platform:org.eclipse.equinox.preferences:[3.2.0,4.0.0) -&gt; 3.7.100 (*)
+     |    |    |         |    +--- org.eclipse.platform:org.eclipse.equinox.registry:[3.2.0,4.0.0) -&gt; 3.8.0 (*)
+     |    |    |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    |         \--- org.eclipse.platform:org.eclipse.equinox.app:[1.0.0,) -&gt; 1.3.500
+     |    |    |              +--- org.eclipse.platform:org.eclipse.equinox.registry:[3.4.0,4.0.0) -&gt; 3.8.0 (*)
+     |    |    |              \--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    +--- org.eclipse.platform:org.eclipse.core.filesystem:[1.3.0,2.0.0) -&gt; 1.7.100
+     |    |    |    +--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    |    +--- org.eclipse.platform:org.eclipse.equinox.registry:[3.2.0,4.0.0) -&gt; 3.8.0 (*)
+     |    |    |    \--- org.eclipse.platform:org.eclipse.osgi:[3.2.0,4.0.0) -&gt; 3.13.0
+     |    |    \--- org.eclipse.platform:org.eclipse.core.runtime:[3.12.0,4.0.0) -&gt; 3.14.0 (*)
+     |    +--- org.eclipse.platform:org.eclipse.core.runtime:[3.3.0,4.0.0) -&gt; 3.14.0 (*)
+     |    +--- org.eclipse.platform:org.eclipse.core.filesystem:[1.0.0,2.0.0) -&gt; 1.7.100 (*)
+     |    \--- org.eclipse.platform:org.eclipse.text:[3.1.0,4.0.0) -&gt; 3.6.300
+     |         +--- org.eclipse.platform:org.eclipse.core.commands:[3.5.0,4.0.0) -&gt; 3.9.100
+     |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |         \--- org.eclipse.platform:org.eclipse.equinox.common:[3.5.0,4.0.0) -&gt; 3.10.0
+     +--- org.freemarker:freemarker:2.3.23
+     +--- org.hibernate:hibernate-core:5.3.1.Final
+     |    +--- org.jboss.logging:jboss-logging:3.3.2.Final
+     |    +--- javax.persistence:javax.persistence-api:2.2
+     |    +--- org.javassist:javassist:3.22.0-GA
+     |    +--- net.bytebuddy:byte-buddy:1.8.12
+     |    +--- antlr:antlr:2.7.7
+     |    +--- org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.1.1.Final
+     |    +--- org.jboss:jandex:2.0.3.Final
+     |    +--- com.fasterxml:classmate:1.3.4
+     |    +--- dom4j:dom4j:1.6.1
+     |    \--- org.hibernate.common:hibernate-commons-annotations:5.0.3.Final
+     |         \--- org.jboss.logging:jboss-logging:3.3.1.Final -&gt; 3.3.2.Final
+     +--- org.hibernate.common:hibernate-commons-annotations:5.0.3.Final (*)
+     +--- javax.persistence:javax.persistence-api:2.2
+     +--- org.slf4j:slf4j-api:1.7.23
+     \--- org.slf4j:slf4j-log4j12:1.7.23
+          +--- org.slf4j:slf4j-api:1.7.23
+          \--- log4j:log4j:1.2.17
+
+testCompileOnly - Compile only dependencies for source set 'test'.
+No dependencies
+
+testImplementation - Implementation only dependencies for source set 'test'. (n)
+No dependencies
+
+testRuntime - Runtime dependencies for source set 'test' (deprecated, use 'testRuntimeOnly ' instead).
+\--- org.hibernate:hibernate-tools:+ -&gt; 5.3.1.Final
+     +--- commons-collections:commons-collections:3.2.2
+     +--- commons-logging:commons-logging:1.2
+     +--- jaxen:jaxen:1.1.6
+     +--- org.apache.ant:ant:1.10.1
+     |    \--- org.apache.ant:ant-launcher:1.10.1
+     +--- org.eclipse.jdt:org.eclipse.jdt.core:3.12.2
+     |    +--- org.eclipse.platform:org.eclipse.core.resources:[3.3.0,4.0.0) -&gt; 3.13.0
+     |    |    +--- org.eclipse.platform:org.eclipse.core.expressions:[3.2.0,4.0.0) -&gt; 3.6.100
+     |    |    |    \--- org.eclipse.platform:org.eclipse.core.runtime:[3.3.0,4.0.0) -&gt; 3.14.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.osgi:[3.7.0,4.0.0) -&gt; 3.13.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.equinox.common:[3.8.0,4.0.0) -&gt; 3.10.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.core.jobs:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.8.0,4.0.0) -&gt; 3.10.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.equinox.registry:[3.8.0,4.0.0) -&gt; 3.8.0
+     |    |    |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.7.0,4.0.0) -&gt; 3.10.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.equinox.preferences:[3.4.0,4.0.0) -&gt; 3.7.100
+     |    |    |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.core.contenttype:[3.3.0,4.0.0) -&gt; 3.7.0
+     |    |    |         |    +--- org.eclipse.platform:org.eclipse.equinox.preferences:[3.2.0,4.0.0) -&gt; 3.7.100 (*)
+     |    |    |         |    +--- org.eclipse.platform:org.eclipse.equinox.registry:[3.2.0,4.0.0) -&gt; 3.8.0 (*)
+     |    |    |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    |         \--- org.eclipse.platform:org.eclipse.equinox.app:[1.0.0,) -&gt; 1.3.500
+     |    |    |              +--- org.eclipse.platform:org.eclipse.equinox.registry:[3.4.0,4.0.0) -&gt; 3.8.0 (*)
+     |    |    |              \--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    +--- org.eclipse.platform:org.eclipse.core.filesystem:[1.3.0,2.0.0) -&gt; 1.7.100
+     |    |    |    +--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    |    +--- org.eclipse.platform:org.eclipse.equinox.registry:[3.2.0,4.0.0) -&gt; 3.8.0 (*)
+     |    |    |    \--- org.eclipse.platform:org.eclipse.osgi:[3.2.0,4.0.0) -&gt; 3.13.0
+     |    |    \--- org.eclipse.platform:org.eclipse.core.runtime:[3.12.0,4.0.0) -&gt; 3.14.0 (*)
+     |    +--- org.eclipse.platform:org.eclipse.core.runtime:[3.3.0,4.0.0) -&gt; 3.14.0 (*)
+     |    +--- org.eclipse.platform:org.eclipse.core.filesystem:[1.0.0,2.0.0) -&gt; 1.7.100 (*)
+     |    \--- org.eclipse.platform:org.eclipse.text:[3.1.0,4.0.0) -&gt; 3.6.300
+     |         +--- org.eclipse.platform:org.eclipse.core.commands:[3.5.0,4.0.0) -&gt; 3.9.100
+     |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |         \--- org.eclipse.platform:org.eclipse.equinox.common:[3.5.0,4.0.0) -&gt; 3.10.0
+     +--- org.freemarker:freemarker:2.3.23
+     +--- org.hibernate:hibernate-core:5.3.1.Final
+     |    +--- org.jboss.logging:jboss-logging:3.3.2.Final
+     |    +--- javax.persistence:javax.persistence-api:2.2
+     |    +--- org.javassist:javassist:3.22.0-GA
+     |    +--- net.bytebuddy:byte-buddy:1.8.12
+     |    +--- antlr:antlr:2.7.7
+     |    +--- org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.1.1.Final
+     |    +--- org.jboss:jandex:2.0.3.Final
+     |    +--- com.fasterxml:classmate:1.3.4
+     |    +--- dom4j:dom4j:1.6.1
+     |    \--- org.hibernate.common:hibernate-commons-annotations:5.0.3.Final
+     |         \--- org.jboss.logging:jboss-logging:3.3.1.Final -&gt; 3.3.2.Final
+     +--- org.hibernate.common:hibernate-commons-annotations:5.0.3.Final (*)
+     +--- javax.persistence:javax.persistence-api:2.2
+     +--- org.slf4j:slf4j-api:1.7.23
+     \--- org.slf4j:slf4j-log4j12:1.7.23
+          +--- org.slf4j:slf4j-api:1.7.23
+          \--- log4j:log4j:1.2.17
+
+testRuntimeClasspath - Runtime classpath of source set 'test'.
+\--- org.hibernate:hibernate-tools:+ -&gt; 5.3.1.Final
+     +--- commons-collections:commons-collections:3.2.2
+     +--- commons-logging:commons-logging:1.2
+     +--- jaxen:jaxen:1.1.6
+     +--- org.apache.ant:ant:1.10.1
+     |    \--- org.apache.ant:ant-launcher:1.10.1
+     +--- org.eclipse.jdt:org.eclipse.jdt.core:3.12.2
+     |    +--- org.eclipse.platform:org.eclipse.core.resources:[3.3.0,4.0.0) -&gt; 3.13.0
+     |    |    +--- org.eclipse.platform:org.eclipse.core.expressions:[3.2.0,4.0.0) -&gt; 3.6.100
+     |    |    |    \--- org.eclipse.platform:org.eclipse.core.runtime:[3.3.0,4.0.0) -&gt; 3.14.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.osgi:[3.7.0,4.0.0) -&gt; 3.13.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.equinox.common:[3.8.0,4.0.0) -&gt; 3.10.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.core.jobs:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.8.0,4.0.0) -&gt; 3.10.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.equinox.registry:[3.8.0,4.0.0) -&gt; 3.8.0
+     |    |    |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.7.0,4.0.0) -&gt; 3.10.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.equinox.preferences:[3.4.0,4.0.0) -&gt; 3.7.100
+     |    |    |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    |         +--- org.eclipse.platform:org.eclipse.core.contenttype:[3.3.0,4.0.0) -&gt; 3.7.0
+     |    |    |         |    +--- org.eclipse.platform:org.eclipse.equinox.preferences:[3.2.0,4.0.0) -&gt; 3.7.100 (*)
+     |    |    |         |    +--- org.eclipse.platform:org.eclipse.equinox.registry:[3.2.0,4.0.0) -&gt; 3.8.0 (*)
+     |    |    |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    |         \--- org.eclipse.platform:org.eclipse.equinox.app:[1.0.0,) -&gt; 1.3.500
+     |    |    |              +--- org.eclipse.platform:org.eclipse.equinox.registry:[3.4.0,4.0.0) -&gt; 3.8.0 (*)
+     |    |    |              \--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    +--- org.eclipse.platform:org.eclipse.core.filesystem:[1.3.0,2.0.0) -&gt; 1.7.100
+     |    |    |    +--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |    |    |    +--- org.eclipse.platform:org.eclipse.equinox.registry:[3.2.0,4.0.0) -&gt; 3.8.0 (*)
+     |    |    |    \--- org.eclipse.platform:org.eclipse.osgi:[3.2.0,4.0.0) -&gt; 3.13.0
+     |    |    \--- org.eclipse.platform:org.eclipse.core.runtime:[3.12.0,4.0.0) -&gt; 3.14.0 (*)
+     |    +--- org.eclipse.platform:org.eclipse.core.runtime:[3.3.0,4.0.0) -&gt; 3.14.0 (*)
+     |    +--- org.eclipse.platform:org.eclipse.core.filesystem:[1.0.0,2.0.0) -&gt; 1.7.100 (*)
+     |    \--- org.eclipse.platform:org.eclipse.text:[3.1.0,4.0.0) -&gt; 3.6.300
+     |         +--- org.eclipse.platform:org.eclipse.core.commands:[3.5.0,4.0.0) -&gt; 3.9.100
+     |         |    \--- org.eclipse.platform:org.eclipse.equinox.common:[3.2.0,4.0.0) -&gt; 3.10.0
+     |         \--- org.eclipse.platform:org.eclipse.equinox.common:[3.5.0,4.0.0) -&gt; 3.10.0
+     +--- org.freemarker:freemarker:2.3.23
+     +--- org.hibernate:hibernate-core:5.3.1.Final
+     |    +--- org.jboss.logging:jboss-logging:3.3.2.Final
+     |    +--- javax.persistence:javax.persistence-api:2.2
+     |    +--- org.javassist:javassist:3.22.0-GA
+     |    +--- net.bytebuddy:byte-buddy:1.8.12
+     |    +--- antlr:antlr:2.7.7
+     |    +--- org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.1.1.Final
+     |    +--- org.jboss:jandex:2.0.3.Final
+     |    +--- com.fasterxml:classmate:1.3.4
+     |    +--- dom4j:dom4j:1.6.1
+     |    \--- org.hibernate.common:hibernate-commons-annotations:5.0.3.Final
+     |         \--- org.jboss.logging:jboss-logging:3.3.1.Final -&gt; 3.3.2.Final
+     +--- org.hibernate.common:hibernate-commons-annotations:5.0.3.Final (*)
+     +--- javax.persistence:javax.persistence-api:2.2
+     +--- org.slf4j:slf4j-api:1.7.23
+     \--- org.slf4j:slf4j-log4j12:1.7.23
+          +--- org.slf4j:slf4j-api:1.7.23
+          \--- log4j:log4j:1.2.17
+
+testRuntimeOnly - Runtime only dependencies for source set 'test'. (n)
+No dependencies
+
+(*) - dependencies omitted (listed previously)
+
+A web-based, searchable dependency report is available by adding the --scan option.
+</code></pre>
